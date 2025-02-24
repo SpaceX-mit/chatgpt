@@ -1,0 +1,66 @@
+{
+  "name": "@ohos/chatgpt",
+  "version": "1.0.0",
+  "description": "OpenHarmony ChatGPT AI Service Component",
+  "publishAs": "code-segment",
+  "segment": {
+    "destPath": "foundation/communication/chatgpt"
+  },
+  "dirs": {},
+  "scripts": {},
+  "author": {},
+  "homePage": "https://gitee.com/openharmony",
+  "repository": "https://gitee.com/your-org/communication_chatgpt",
+  "supplier": "Organization: OpenHarmony",
+  "license": "Apache License 2.0",
+  "component": {
+    "name": "chatgpt",
+    "subsystem": "communication",
+    "adapted_system_type": [
+      "standard"
+    ],
+    #"syscap": [
+    #  "SystemCapability.Communication.AI.ChatGPT"
+    #],
+    "features": [
+      "chatgpt_feature_napi",
+      "chatgpt_feature_core"
+    ],
+    "rom": "2000KB",
+    "ram": "20MB",
+    "deps": {
+      "components": [
+        "ace_napi",
+        "hilog",
+        "hiviewdfx_hilog",
+        "ipc",
+        "samgr",
+        "utils",
+        "chatgpt_core",
+        "arkui_napi"
+      ],
+      "third_party": [
+        "bounds_checking_function",
+        "mbedtls",
+        "openssl"
+      ]
+    },
+    "build": {
+      "sub_component": [
+        "//foundation/communication/chatgpt/services:chatgpt_core",
+        "//foundation/communication/chatgpt/napi:chatgpt_napi"
+      ],
+      "inner_kits": [
+        {
+          "name": "//foundation/communication/chatgpt/services:chatgpt_core",
+          "header": {
+            "header_files": [
+              "chatgpt.h"
+            ],
+            "header_base": "//foundation/communication/chatgpt/interfaces"
+          }
+        }
+      ]
+    }
+  }
+}

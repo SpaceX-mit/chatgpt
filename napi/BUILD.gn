@@ -1,0 +1,20 @@
+import("//build/ohos.gni")
+
+ohos_shared_library("chatgpt_napi") {
+  sources = [ "chatgpt_napi.cpp" ]
+  include_dirs = [
+    "../interfaces",
+    "//foundation/arkui/napi/include"  # Node-API 头文件路径
+  ]
+  deps = [
+    "//foundation/communication/chatgpt/services:chatgpt_core",
+    #"//foundation/arkui/napi:ace_napi"  # 依赖 Node-API 框架
+  ]
+  #output_name = "chatgpt_napi.z.so"
+  defines = [ "NAPI_VERSION=8" ]
+
+  external_deps = [ "napi:ace_napi" ]
+
+  part_name = "chatgpt"
+  subsystem_name = "communication"
+}

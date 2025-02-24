@@ -1,0 +1,23 @@
+import("//build/ohos.gni")
+
+ohos_shared_library("chatgpt_core") {
+  sources = [ "chatgpt.cpp" ]
+  
+  include_dirs = [
+    "../interfaces",
+    "//third_party/curl/include",
+  ]
+  
+  deps = [
+  ]
+
+  external_deps = [
+    "hilog:libhilog",
+    "json:nlohmann_json_static",
+    "cJSON:cjson",
+    "curl:curl_shared",
+  ]
+
+  part_name = "chatgpt"
+  subsystem_name = "communication"
+}

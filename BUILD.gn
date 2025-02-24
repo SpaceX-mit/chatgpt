@@ -1,0 +1,8 @@
+# foundation/communication/chatgpt/BUILD.gn
+
+# 定义父模块，强制包含子模块
+group("chatgpt") {
+  deps = [
+    "//foundation/communication/chatgpt/services:chatgpt_core"  # 关键：显式依赖子模块
+  ]
+}

@@ -1,0 +1,24 @@
+# foundation/communication/chatgpt/tests/BUILD.gn
+
+#import("//build/ohos_test.gni")  # 导入测试框架
+import("//build/ohos/ohos_test.gni")
+
+# 定义单元测试目标
+ohos_unittest("unittest") {
+  sources = [
+    "chatgpt_unittest.cpp"  # 测试代码文件
+  ]
+  deps = [
+    "//foundation/communication/chatgpt/services:chatgpt_core",  # 依赖核心模块
+    "//third_party/googletest:gtest_main"  # 依赖 Google Test 框架
+  ]
+  include_dirs = [
+    "//foundation/communication/chatgpt/interfaces"  # 头文件路径
+  ]
+  configs = [ "//build/test/ohos_test_config:ohos_unittest" ]
+}
+
+# 可选的集成测试目标（若需要）
+ohos_integration_test("integration_test") {
+  # ... 类似配置，根据实际需求添加
+}
