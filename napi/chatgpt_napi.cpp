@@ -1,37 +1,152 @@
-#include "napi/native_api.h"
+#include <napi/native_api.h>
+#include <napi/native_node_api.h>
 #include "chatgpt.h"
 
-// 定义 JS 方法名
-static const std::string JS_METHOD_GENERATE_RESPONSE = "generateResponse";
+// 定义异步工作数据结构
+struct AsyncCallbackData {
+    napi_env env;
+    napi_ref streamCallbackRef;
+    napi_ref completionCallbackRef;
+    std::string chunk;
+    std::string result;
+    napi_value resourceName;
+};
 
-// 封装 GenerateResponse 方法
-napi_value GenerateResponse(napi_env env, napi_callback_info info) {
-    size_t argc = 1;
-    napi_value args[1];
-    napi_get_cb_info(env, info, &argc, args, nullptr, nullptr);
-
-    // 从 JS 获取输入字符串
-    char input[256];
-    size_t strLen;
-    napi_get_value_string_utf8(env, args[0], input, sizeof(input), &strLen);
-
-    // 调用 C++ 方法
-    std::string response = OHOS::Communication::ChatGPT::GetInstance().GenerateResponse(input);
-
-    // 返回结果到 JS
-    napi_value result;
-    napi_create_string_utf8(env, response.c_str(), response.size(), &result);
-    return result;
+static void ExecuteAsyncWork(napi_env env, void* data) {
+    // This function runs on the worker thread
+    // Empty because our work is done in GenerateResponseStream
 }
 
-// 模块初始化函数
+static void StreamCallbackComplete(napi_env env, napi_status status, void* data) {
+    auto* callbackData = static_cast<AsyncCallbackData*>(data);
+    
+    napi_value callback, global, argv[1];
+    napi_status result;
+    
+    result = napi_get_reference_value(env, callbackData->streamCallbackRef, &callback);
+    if (result != napi_ok) return;
+    
+    result = napi_get_global(env, &global);
+    if (result != napi_ok) return;
+    
+    napi_value undefined;
+    result = napi_create_string_utf8(env, callbackData->chunk.c_str(), 
+        callbackData->chunk.length(), &argv[0]);
+    if (result != napi_ok) return;
+    
+    result = napi_get_undefined(env, &undefined);
+    if (result != napi_ok) return;
+    
+    napi_call_function(env, undefined, callback, 1, argv, nullptr);
+    delete callbackData;
+}
+
+static void CompletionCallbackComplete(napi_env env, napi_status status, void* data) {
+    auto* callbackData = static_cast<AsyncCallbackData*>(data);
+    
+    napi_value callback;
+    napi_get_reference_value(env, callbackData->completionCallbackRef, &callback);
+    
+    napi_value global;
+    napi_get_global(env, &global);
+    
+    napi_value argv[1];
+    napi_create_string_utf8(env, callbackData->result.c_str(), 
+        callbackData->result.length(), &argv[0]);
+    
+    napi_call_function(env, global, callback, 1, argv, nullptr);
+    
+    // Cleanup
+    napi_delete_reference(env, callbackData->streamCallbackRef);
+    napi_delete_reference(env, callbackData->completionCallbackRef);
+    delete callbackData;
+}
+
+napi_value GenerateResponse(napi_env env, napi_callback_info info) {
+    size_t argc = 3;
+    napi_value args[3], resource_name;
+    napi_get_cb_info(env, info, &argc, args, nullptr, nullptr);
+
+    // Create persistent references
+    napi_ref streamCallbackRef;
+    napi_ref completionCallbackRef;
+    
+    // Create string for resource name
+    napi_create_string_utf8(env, "StreamCallback", NAPI_AUTO_LENGTH, &resource_name);
+    
+    napi_create_reference(env, args[1], 1, &streamCallbackRef);
+    napi_create_reference(env, args[2], 1, &completionCallbackRef);
+
+    // Get input string
+    char input[1024];
+    size_t inputLen;
+    napi_get_value_string_utf8(env, args[0], input, sizeof(input), &inputLen);
+
+    // Create stream callback
+    auto streamCallback = [env, streamCallbackRef](const std::string& chunk) {
+        auto* data = new AsyncCallbackData{
+            .env = env,
+            .streamCallbackRef = streamCallbackRef,
+            .chunk = chunk
+        };
+
+        napi_async_work work;
+        napi_value resource_name;
+        napi_create_string_utf8(env, "StreamCallback", NAPI_AUTO_LENGTH, &resource_name);
+
+        napi_create_async_work(
+            env,
+            nullptr,
+            resource_name,
+            ExecuteAsyncWork,
+            StreamCallbackComplete,
+            data,
+            &work);
+
+        napi_queue_async_work(env, work);
+    };
+
+    // Create completion callback
+    auto completionCallback = [env, streamCallbackRef, completionCallbackRef]
+        (const std::string& result) {
+        auto* data = new AsyncCallbackData{
+            .env = env,
+            .streamCallbackRef = streamCallbackRef,
+            .completionCallbackRef = completionCallbackRef,
+            .result = result
+        };
+
+        napi_async_work work;
+        napi_value resource_name;
+        napi_create_string_utf8(env, "CompletionCallback", NAPI_AUTO_LENGTH, &resource_name);
+
+        napi_create_async_work(
+            env,
+            nullptr,
+            resource_name,
+            ExecuteAsyncWork,
+            CompletionCallbackComplete,
+            data,
+            &work);
+
+        napi_queue_async_work(env, work);
+    };
+
+    // Call the native method
+    OHOS::Communication::ChatGPT::GetInstance().GenerateResponseStream(
+        input, streamCallback, completionCallback);
+
+    return nullptr;
+}
+
+// Module initialization
 napi_value Init(napi_env env, napi_value exports) {
     napi_property_descriptor desc[] = {
-        { JS_METHOD_GENERATE_RESPONSE.c_str(), 0, GenerateResponse, 0, 0, 0, napi_default, 0 }
+        { "generateResponse", nullptr, GenerateResponse, nullptr, nullptr, nullptr, 
+            napi_default, nullptr }
     };
-    napi_define_properties(env, exports, sizeof(desc) / sizeof(desc[0]), desc);
+    napi_define_properties(env, exports, 1, desc);
     return exports;
 }
 
-// 注册模块
-NAPI_MODULE(chatgpt, Init)
+NAPI_MODULE(chatgpt_napi, Init)
