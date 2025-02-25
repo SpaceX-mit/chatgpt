@@ -99,7 +99,7 @@ void ChatGPT::GenerateResponseStream(
         
         // Prepare request payload
         json requestJson = {
-            {"model", "deepseek-coder-1.3b"},
+            {"model", "deepseek-r1-1.5b"},
             {"prompt", input},
             {"stream", true}
         };
@@ -114,9 +114,12 @@ void ChatGPT::GenerateResponseStream(
         curl_easy_setopt(curl, CURLOPT_TIMEOUT, 30L);
         curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
 
+        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 30L);
+        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
         // Perform request
         CURLcode res = curl_easy_perform(curl);
         
+        HiviewDFX::HiLog::Info(LABEL, "Making request to Ollama API");
         // Cleanup CURL resources
         curl_slist_free_all(headers);
         curl_easy_cleanup(curl);
