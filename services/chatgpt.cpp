@@ -62,6 +62,40 @@ size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* userp) {
 
 namespace OHOS {
 namespace Communication {
+
+std::once_flag ChatGPT::initFlag;
+bool ChatGPT::isInitialized = false;
+
+ChatGPT::ChatGPT() {
+    std::call_once(initFlag, [this]() {
+        if (InitializeCurl()) {
+            isInitialized = true;
+            HiviewDFX::HiLog::Info(LABEL, "CURL globally initialized");
+        }
+    });
+}
+
+ChatGPT::~ChatGPT() {
+    if (isInitialized) {
+        CleanupCurl();
+    }
+}
+
+bool ChatGPT::InitializeCurl() {
+    CURLcode code = curl_global_init(CURL_GLOBAL_DEFAULT);
+    if (code != CURLE_OK) {
+        HiviewDFX::HiLog::Error(LABEL, "Failed to initialize CURL: %{public}s", 
+            curl_easy_strerror(code));
+        return false;
+    }
+    return true;
+}
+
+void ChatGPT::CleanupCurl() {
+    curl_global_cleanup();
+    isInitialized = false;
+}
+
 ChatGPT& ChatGPT::GetInstance() {
     static ChatGPT instance;
     HiviewDFX::HiLog::Info(LABEL, "ChatGPT instance created");
@@ -75,6 +109,11 @@ void ChatGPT::GenerateResponseStream(
     
     HiviewDFX::HiLog::Info(LABEL, "Generating streaming response for input: %{public}s", input.c_str());
     
+    if (!isInitialized) {
+        completionCallback("CURL not initialized");
+        return;
+    }
+
     // Create context object on heap
     auto* context = new CallbackContext{
         .streamCallback = std::move(streamCallback),
@@ -83,7 +122,6 @@ void ChatGPT::GenerateResponseStream(
     
     // Use thread for async execution
     std::thread([this, input, context]() {
-        curl_global_init(CURL_GLOBAL_DEFAULT);
         CURL* curl = curl_easy_init();
         
         if (!curl) {
