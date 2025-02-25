@@ -6,9 +6,13 @@ ohos_shared_library("chatgpt_core") {
   include_dirs = [
     "../interfaces",
     "//third_party/curl/include",
+    "//third_party/json/include",
   ]
-  
+
+  public_configs = [ ":chatgpt_public_config" ]
+
   deps = [
+    #"//third_party/curl:libcurl",
   ]
 
   external_deps = [
@@ -21,7 +25,12 @@ ohos_shared_library("chatgpt_core") {
   part_name = "chatgpt"
   subsystem_name = "communication"
   install_enable = true
-  install_images = [ "system" ]     # 指定安装到system分区
+  #install_images = [ "system" ]     # 指定安装到system分区
   # 指定库文件的安装路径
-  relative_install_dir = "module"    # 将安装到 /system/lib64/module/ 目录
+  #relative_install_dir = "module"    # 将安装到 /system/lib64/module/ 目录
+}
+
+config("chatgpt_public_config") {
+  include_dirs = [ "../interfaces" ]
+  visibility = [ "*" ]  # Make visible to all targets
 }
