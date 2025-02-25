@@ -30,6 +30,8 @@ ChatGPT& ChatGPT::GetInstance() {
 }
 
 std::string ChatGPT::GenerateResponse(const std::string& input) {
+    curl_global_init(CURL_GLOBAL_DEFAULT);
+
     CURL* curl = curl_easy_init();
     if (!curl) {
         HiviewDFX::HiLog::Error(LABEL, "Failed to initialize CURL");
@@ -41,6 +43,7 @@ std::string ChatGPT::GenerateResponse(const std::string& input) {
     json requestJson;
     requestJson["model"] = "deepseek-r1-1.5b";
     requestJson["prompt"] = input;
+    requestJson["stream"] = true;  // 添加流式传输支持
     std::string jsonString = requestJson.dump();
     HiviewDFX::HiLog::Debug(LABEL, "Request payload prepared: %{public}s", jsonString.c_str());
 
@@ -56,12 +59,17 @@ std::string ChatGPT::GenerateResponse(const std::string& input) {
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
     curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response);
 
+    // 添加超时设置
+    curl_easy_setopt(curl, CURLOPT_TIMEOUT, 30L);
+    curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
+
     HiviewDFX::HiLog::Info(LABEL, "Making request to Ollama API");
     CURLcode res = curl_easy_perform(curl);
     
     // Clean up
     curl_slist_free_all(headers);
     curl_easy_cleanup(curl);
+    curl_global_cleanup();  // 添加全局清理
 
     if (res != CURLE_OK) {
         std::string error = curl_easy_strerror(res);
