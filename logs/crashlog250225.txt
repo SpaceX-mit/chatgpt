@@ -1,0 +1,513 @@
+02-25 15:55:21.776   2560-2560    C02c11/APPSPAWN                bm                    I     [appspawn_server.c:91]AppSpawnChild id 21 flags: 0x0
+02-25 15:55:21.776   2560-2560    C02c02/PARAM                   bm                    I     [param_request.c:324]ResetParamSecurityLabel g_clientFd: 23
+02-25 15:55:21.783   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /system/data to /mnt/sandbox/100/com.example.testnapi/system/data
+02-25 15:55:21.783   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /system/etc/hosts to /mnt/sandbox/100/com.example.testnapi/data/service/el1/network/hosts_user/hosts
+02-25 15:55:21.784   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /system/resource to /mnt/sandbox/100/com.example.testnapi/system/resource
+02-25 15:55:21.784   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /vendor/lib to /mnt/sandbox/100/com.example.testnapi/vendor/lib
+02-25 15:55:21.784   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /vendor/etc/hiai to /mnt/sandbox/100/com.example.testnapi/vendor/etc/hiai
+02-25 15:55:21.784   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /data/data/hiai to /mnt/sandbox/100/com.example.testnapi/data/data/hiai
+02-25 15:55:21.784   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /vendor/etc/vulkan to /mnt/sandbox/100/com.example.testnapi/vendor/etc/vulkan
+02-25 15:55:21.785   2560-2560    C02c11/APPSPAWN                bm                    E     [sandbox_utils.cpp:261]mount /mnt/sandbox/100/com.example.testnapi/data/storage/el2 time 667 us
+02-25 15:55:21.788   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /data/local/ark-cache/com.example.testnapi to /mnt/sandbox/100/com.example.testnapi/data/storage/ark-cache
+02-25 15:55:21.789   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /data/local/shader_cache/cloud/com.example.testnapi to /mnt/sandbox/100/com.example.testnapi/data/storage/shader_cache/cloud
+02-25 15:55:21.790   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /data/service/el1/public/themes/100/a/app to /mnt/sandbox/100/com.example.testnapi/data/themes/a/app
+02-25 15:55:21.790   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /data/service/el1/public/themes/100/b/app to /mnt/sandbox/100/com.example.testnapi/data/themes/b/app
+02-25 15:55:21.792   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /mnt/hmdfs/100/cloud/data/com.example.testnapi to /mnt/sandbox/100/com.example.testnapi/data/storage/el2/cloud
+02-25 15:55:21.795   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /system/asan/lib64 to /mnt/sandbox/100/com.example.testnapi/system/asan/lib64
+02-25 15:55:21.795   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /vendor/asan/lib64 to /mnt/sandbox/100/com.example.testnapi/vendor/asan/lib64
+02-25 15:55:21.797   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:269]errno is: 2, bind mount /system/app/SystemResources to /mnt/sandbox/100/com.example.testnapi/data/global/systemResources
+02-25 15:55:21.805   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:1519]Set appsandbox property success
+02-25 15:55:21.807   2560-2560    C02c11/APPSPAWN                bm                    I     [sandbox_utils.cpp:1618]Change root dir success
+02-25 15:55:21.807   2560-2560    C02c11/APPSPAWN                bm                    E     [appspawn_silk.c:118]Load silk library failed for configItems is NULL
+02-25 15:55:21.807   2560-2560    C05a06/CODE_SIGN               bm                    I     [InitXpm]:Open device file failed: No such file or directory (ignore)
+02-25 15:55:21.808   2560-2560    C03f00/MUSL-LDSO               bm                    E     Open absolute_path library: check ns accessible failed, pathname /system/lib64/platformsdk/libsecurity_component_client_enhance.z.so namespace ndk.
+02-25 15:55:21.808   2560-2560    C03f00/MUSL-LDSO               bm                    E     Error loading header /system/lib64/platformsdk/libsecurity_component_client_enhance.z.so, namespace ndk has no inherits, errno=2
+02-25 15:55:21.808   2560-2560    C03f00/MUSL-LDSO               bm                    E     Error loading header: can't find library /system/lib64/platformsdk/libsecurity_component_client_enhance.z.so in namespace: default
+02-25 15:55:21.808   2560-2560    C03f00/MUSL-LDSO               bm                    E     dlopen_impl load library header failed for /system/lib64/platformsdk/libsecurity_component_client_enhance.z.so
+02-25 15:55:21.808   2560-2560    C05a05/SecCompEnhanceAdapter   bm                    E     [InitEnhanceHandler]init enhance lib /system/lib64/platformsdk/libsecurity_component_client_enhance.z.so failed, error Error loading shared library /system/lib64/platformsdk/libsecurity_component_client_enhance.z.so: No such file or directory
+02-25 15:55:21.808   2560-2560    C02c11/APPSPAWN                bm                    I     [appspawn_server.c:33]NotifyResToParent: 0
+02-25 15:55:21.814   2560-2560    C02d0b/HICHECKER               bm                    I     hichecker param is empty.
+02-25 15:55:21.823   2560-2560    C02c11/APPSPAWN                bm                    E     [appspawn_common.c:506]no need set fd info 1, 0
+02-25 15:55:21.823   2560-2560    C02c11/APPSPAWN                bm                    W     [appspawn_begetctl.c:73]Enter begetctl boot without BEGETCTL_BOOT flag set
+02-25 15:55:21.824   2560-2560    C02c11/APPSPAWN                bm                    I     Close 2560 fd timeused 920 us
+02-25 15:55:21.825   2560-2560    C01317/AppKit                  bm                    I     [main_thread.cpp:2504]App main thread create, pid:2560
+02-25 15:55:21.826   2560-2560    C057c4/IPCThreadSkeleton       bm                    I     MakeTlsKey 84: key:17
+02-25 15:55:21.826   2560-2560    C057c6/BinderInvoker           bm                    I     BinderInvoker 92: created invoker 339890576
+02-25 15:55:21.827   2560-2560    C01201/EventHandler            bm                    I     Create eventHandler 1_24575285871008
+02-25 15:55:21.827   2560-2562    C057c1/IPCWorkThread           bm                    I     ThreadHandler 110: proto:0 policy:1 name:OS_IPC_0_2562
+02-25 15:55:21.827   2560-2562    C057c6/BinderInvoker           bm                    I     BinderInvoker 92: created invoker 339892064
+02-25 15:55:21.827   2560-2563    C057c1/IPCWorkThread           bm                    I     ThreadHandler 110: proto:0 policy:0 name:OS_IPC_1_2563
+02-25 15:55:21.828   2560-2563    C057c6/BinderInvoker           bm                    I     BinderInvoker 92: created invoker 339892560
+02-25 15:55:21.833   2560-2560    C01317/AppKit                  bm                    I     [main_thread.cpp:346]attach to appMGR.
+02-25 15:55:21.835   2560-2560    C03f00/MUSL-LDSO               bm                    E     Open absolute_path library: check ns accessible failed, pathname /system/lib/chipset-pub-sdk/libhitrace_meter.so namespace ndk.
+02-25 15:55:21.835   2560-2560    C03f00/MUSL-LDSO               bm                    E     Error loading header /system/lib/chipset-pub-sdk/libhitrace_meter.so, namespace ndk has no inherits, errno=2
+02-25 15:55:21.835   2560-2560    C03f00/MUSL-LDSO               bm                    E     Error loading header: can't find library /system/lib/chipset-pub-sdk/libhitrace_meter.so in namespace: default
+02-25 15:55:21.835   2560-2560    C03f00/MUSL-LDSO               bm                    E     dlopen_impl load library header failed for /system/lib/chipset-pub-sdk/libhitrace_meter.so
+02-25 15:55:21.836   2560-2560    C01201/EventHiTraceAdapter     bm                    E     dlopen /system/lib/chipset-pub-sdk/libhitrace_meter.so failed.
+02-25 15:55:21.875   2560-2566    C057c1/IPCWorkThread           bm                    I     ThreadHandler 110: proto:0 policy:0 name:OS_IPC_2_2566
+02-25 15:55:21.875   2560-2566    C057c6/BinderInvoker           bm                    I     BinderInvoker 92: created invoker 339893552
+02-25 15:55:21.877   2560-2563    C01317/AppKit                  bm                    I     [main_thread.cpp:688]ScheduleLaunchAbility called, ability EntryAbility, type is 1.
+02-25 15:55:21.887   2560-2560    C03900/ACE_UIContent           bm                    I     [74]AceForwardCompatibility [com.example.testnapi] force:1 newpipe:1
+02-25 15:55:21.889   2560-2560    C01321/JsRuntime               bm                    W     [js_runtime.cpp:881]no lib path to set
+02-25 15:55:21.890   2560-2560    C02c02/PARAM                   bm                    E     [param_manager.c:749]SystemReadParam failed! name is:ark.profile, errNum is:106!
+02-25 15:55:21.890   2560-2560    C03f00/ArkCompiler             bm                    I     [ecmascript] asmint: 0, aot: 0, jit: 1, baseline jit: 0, bundle name: com.example.testnapi
+02-25 15:55:21.892   2560-2560    C03f00/ArkCompiler             bm                    I     [ecmascript] multi-thread check enabled: 0
+02-25 15:55:21.893   2560-2560    C01707/CONCUR                  bm                    E     [Interface] task 2560 belong to user 20010049 open qos node failed, errno = 2
+02-25 15:55:21.894   2560-2560    C02c02/PARAM                   bm                    E     [param_manager.c:749]SystemReadParam failed! name is:ark.profile, errNum is:106!
+02-25 15:55:21.894   2560-2560    C02c02/PARAM                   bm                    E     [param_manager.c:749]SystemReadParam failed! name is:ark.jit.escape.disable, errNum is:106!
+02-25 15:55:21.896   2560-2560    C02c02/PARAM                   bm                    E     [param_manager.c:749]SystemReadParam failed! name is:persist.ark.properties, errNum is:106!
+02-25 15:55:21.899   2560-2560    C03301/LIBUV                   bm                    I     loop init: loop addr is 321556480
+02-25 15:55:21.899   2560-2573    C01719/ffrt                    bm                    W     6:TrivalOpenQosCtrlNode:64 pid 2560 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 15:55:21.899   2560-2560    C03301/LIBUV                   bm                    I     loop init: loop add is 321556480, backend_fd is 37
+02-25 15:55:21.899   2560-2560    C03301/LIBUV                   bm                    I     open: loop addr is 321556480, loop->async_wfd is -1,loop->async_io_watcher.fd is 40
+02-25 15:55:21.900   2560-2574    C01719/ffrt                    bm                    E     11:operator():38 [313784736] set priority failed ret[1] errno[0]
+02-25 15:55:21.901   2560-2560    C03f00/ArkCompiler             bm                    I     [ecmascript] can not find aot file
+02-25 15:55:21.901   2560-2560    C02c02/PARAM                   bm                    E     [param_manager.c:749]SystemReadParam failed! name is:ark.profile, errNum is:106!
+02-25 15:55:21.901   2560-2560    C03f00/ArkCompiler             bm                    I     [ecmascript] Stop load AOT because it's not in enable list
+02-25 15:55:21.901   2560-2560    C01305/Base                    bm                    E     [zip_file.cpp(ExtractToBufByName:1071)]GetEntry failed hapPath pkgContextInfo.json
+02-25 15:55:21.902   2560-2573    C057c6/BinderInvoker           bm                    I     BinderInvoker 92: created invoker 339895536
+02-25 15:55:21.903   2560-2560    C01321/JsRuntime               bm                    E     [js_runtime.cpp:199]Developer Mode is false.
+02-25 15:55:21.913   2560-2560    C01e00/ResourceManager         bm                    I     CreateResourceManagerDef LoadThemeRes
+02-25 15:55:21.913   2560-2560    C01336/AMS                     bm                    E     [main_thread.cpp:3313]emptye config
+02-25 15:55:21.918   2560-2575    C01653/NativePreferences       bm                    W     LoadFromDisk: The settingXml i18n load failed.
+02-25 15:55:21.920   2560-2560    C01301/Ability                 bm                    W     [resource_config_helper.cpp:157]invalid source:
+02-25 15:55:21.920   2560-2560    C01301/Ability                 bm                    W     [resource_config_helper.cpp:157]invalid source:
+02-25 15:55:21.925   2560-2576    C01719/ffrt                    bm                    W     23:TrivalOpenQosCtrlNode:64 pid 2560 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 15:55:21.930   2560-2560    C01317/AppKit                  bm                    E     [js_ability_stage.cpp:167]stage is nullptr
+02-25 15:55:21.931   2560-2560    C01317/AppKit                  bm                    W     [js_ability_stage.cpp:179]Not found AbilityStage.js
+02-25 15:55:21.932   2560-2560    C04201/DMS                     bm                    I     [window_display_change_adapter.cpp] WindowDisplayChangeAdapter<32>: sceneBoard is not useable, register this to DM.
+02-25 15:55:21.934   2560-2560    C01356/Recovery                bm                    E     [app_recovery.cpp:119]not enabled
+02-25 15:55:21.934   2560-2560    C01332/UIAbility               bm                    I     [js_ui_ability.cpp:215]called
+02-25 15:55:21.935   2560-2560    C03f00/ArkCompiler             bm                    I     [ecmascript] start to execute module buffer with secure memory: /data/storage/el1/bundle/entry/ets/entryability/EntryAbility.abc
+02-25 15:55:21.935   2560-2569    C03f00/ArkCompiler             bm                    W     [ecmascript] set label failed! level: s1, file: /data/storage/ark-profile/rt_entry.ap
+02-25 15:55:21.935   2560-2569    C03f00/ArkCompiler             bm                    I     [ecmascript] Save profiler to file:/data/storage/ark-profile/rt_entry.ap
+02-25 15:55:21.935   2560-2560    C03f00/ArkCompiler             bm                    E     [ecmascript] Can not open xpm proc file, do not check secure memory anymore.
+02-25 15:55:21.940   2560-2560    A03d00/JSAPP                   bm                    I     Callee constructor is OK string
+02-25 15:55:21.941   2560-2560    A03d00/JSAPP                   bm                    I     Ability::constructor callee is object [object Object]
+02-25 15:55:21.953   2560-2560    C01332/UIAbility               bm                    I     [ui_ability_thread.cpp:171]attach uiability
+02-25 15:55:21.954   2560-2560    C057c2/IPCObjectProxy          bm                    I     SendRequest 137: handle:10 desc:*.AbilityManager refcnt:4 381544592
+02-25 15:55:21.958   2560-2560    C01317/AppKit                  bm                    I     [main_thread.cpp:2148]called
+02-25 15:55:21.958   2560-2560    C03f00/ArkCompiler             bm                    I     [gc] app is not inBackground
+02-25 15:55:21.958   2560-2560    C01707/CONCUR                  bm                    E     [Interface] task 2560 belong to user 20010049 open qos node failed, errno = 2
+02-25 15:55:21.958   2560-2560    C01707/CONCUR                  bm                    E     [Interface] task 2560 belong to user 20010049 open qos node failed, errno = 2
+02-25 15:55:21.958   2560-2560    C01707/CONCUR                  bm                    E     [Interface] task 2560 belong to user 20010049 open qos node failed, errno = 2
+02-25 15:55:21.962   2560-2563    C01332/UIAbility               bm                    I     [ui_ability_thread.cpp:323]name:EntryAbility,targeState:5,isNewWant:0
+02-25 15:55:21.963   2560-2560    C01332/UIAbility               bm                    E     [ui_ability.cpp:490]appRecovery not recovery restart
+02-25 15:55:21.970   2560-2560    A00000/testTag                 bm                    I     Ability onCreate
+02-25 15:55:21.970   2560-2560    C01332/UIAbility               bm                    I     [js_ui_ability.cpp:1354]end, name: onCreate, time: 0
+02-25 15:55:21.970   2560-2560    C01332/UIAbility               bm                    E     [ui_ability_impl.cpp:290]hasSaveData_: false
+02-25 15:55:21.971   2560-2560    C04202/WMSMain                 bm                    I     [window_scene.cpp] Init<46>: WindowScene init with normal option!
+02-25 15:55:21.976   2560-2560    C04202/WMSMain                 bm                    I     [vsync_station.cpp] VsyncStation<52>: id 10995116277761 created
+02-25 15:55:21.977   2560-2560    C057c1/ProcessSkeleton         bm                    W     AttachObject 179: attach 320729248 desc:*.VSyncIConnectionToken assign
+02-25 15:55:21.987   2560-2560    C02800/InputManagerImpl        bm                    I     [][SetWindowInputEventConsumer:326] enter
+02-25 15:55:21.988   2560-2560    C02801/Multimo...tConnectProxy bm                    I     [][MultimodalInputConnectProxy:98] Construct MMI proxy
+02-25 15:55:21.992   2560-2560    C02801/Multimo...onnectManager bm                    I     [][ConnectMultimodalInputService:492] Get multimodalinput service successful
+02-25 15:55:22.004   2560-2560    C02800/MMIClient               bm                    I     [][OnConnected:245] Connection to server succeeded, fd:47
+02-25 15:55:22.004   2560-2560    C02800/InputManagerImpl        bm                    I     [][OnConnected:1319] enter
+02-25 15:55:22.004   2560-2560    C02800/InputManagerImpl        bm                    I     [][ReAddInputEventFilter:1444] enter
+02-25 15:55:22.004   2560-2560    C02800/InputManagerImpl        bm                    I     [][ReAddInputEventFilter] leave
+02-25 15:55:22.004   2560-2560    C02800/InputManagerImpl        bm                    I     [][PackEnhanceConfig:562] enter
+02-25 15:55:22.004   2560-2560    C02800/InputManagerImpl        bm                    E     [][PackEnhanceConfig:563] CHKPR(enhanceCfg_) is null, return value is -1
+02-25 15:55:22.004   2560-2560    C02800/InputManagerImpl        bm                    I     [][PackEnhanceConfig] leave
+02-25 15:55:22.004   2560-2560    C02800/InputManagerImpl        bm                    E     [][PrintEnhanceConfig:749] CHKPV(enhanceCfg_) is null
+02-25 15:55:22.004   2560-2560    C02800/InputManagerImpl        bm                    I     [][OnConnected] leave
+02-25 15:55:22.006   2560-2560    C02800/MMIClient               bm                    I     [][StartEventRunner:110] Create event handler, thread name:OS_mmi_EventHdr
+02-25 15:55:22.006   2560-2560    C02800/MMIClient               bm                    I     [][AddFdListener:147] Server was listening
+02-25 15:55:22.006   2560-2560    C02800/InputManagerImpl        bm                    I     [][SetWindowInputEventConsumer] leave
+02-25 15:55:22.006   2560-2560    C0420c/WMSEvent                bm                    I     [input_transfer_station.cpp] AddInputWindow<139>: SetWindowInputEventConsumer success, windowid:23
+02-25 15:55:22.006   2560-2560    C04200/SingletonContainer      bm                    E     <82>GetSingleton: can not get OHOS::Rosen::WindowInfoReporter
+02-25 15:55:22.007   2560-2560    C01332/UIAbility               bm                    E     [ui_ability.cpp:258]appRecovery not recovery restart
+02-25 15:55:22.011   2560-2560    A00000/testTag                 bm                    I     Ability onWindowStageCreate
+02-25 15:55:22.012   2560-2560    C04200/JsWindowStage           bm                    I     <87>LoadContent: [NAPI]
+02-25 15:55:22.014   2560-2560    C01332/UIAbility               bm                    I     [js_ui_ability.cpp:1354]end, name: onWindowStageCreate, time: 3
+02-25 15:55:22.014   2560-2560    C04202/WMSMain                 bm                    I     [window_scene.cpp] GoForeground<140>: reason:0
+02-25 15:55:22.028   2560-2560    A00000/testTag                 bm                    I     Ability onForeground
+02-25 15:55:22.029   2560-2560    C01332/UIAbility               bm                    I     [js_ui_ability.cpp:1354]end, name: onForeground, time: 0
+02-25 15:55:22.029   2560-2560    C057c2/IPCObjectProxy          bm                    I     SendRequest 137: handle:10 desc:*.AbilityManager refcnt:3 381544592
+02-25 15:55:22.031   2560-2560    C01332/UIAbility               bm                    E     [ui_ability_impl.cpp:408]null applicationContext or lifecycleCallback
+02-25 15:55:22.033   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(227)-(-1:-1:undefined)] CreateUIContent.
+02-25 15:55:22.033   2560-2560    C03934/AceUIEvent              bm                    I     [ui_event_impl.cpp(79)-(-1:-1:undefined)] report ace loaded
+02-25 15:55:22.034   2560-2560    C03f00/MUSL-LDSO               bm                    E     Error loading header libha_ace_engine.z.so, namespace ndk has no inherits, errno=2
+02-25 15:55:22.034   2560-2560    C03f00/MUSL-LDSO               bm                    E     Error loading header: can't find library libha_ace_engine.z.so in namespace: default
+02-25 15:55:22.034   2560-2560    C03f00/MUSL-LDSO               bm                    E     dlopen_impl load library header failed for libha_ace_engine.z.so
+02-25 15:55:22.034   2560-2560    C03934/AceUIEvent              bm                    I     [ui_event_impl.cpp(83)-(-1:-1:undefined)] Failed to open shared library libha_ace_engine.z.so, reason: Error loading shared library libha_ace_engine.z.so: No such file or directoryn
+02-25 15:55:22.059   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix persist.ace.trace.layout.enabled remoteWatcherId 32 success
+02-25 15:55:22.061   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix const.security.developermode.state remoteWatcherId 32 success
+02-25 15:55:22.065   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix persist.ace.debug.statemgr.enabled remoteWatcherId 32 success
+02-25 15:55:22.067   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix persist.ace.debug.boundary.enabled remoteWatcherId 32 success
+02-25 15:55:22.069   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix persist.ace.trace.inputevent.enabled remoteWatcherId 32 success
+02-25 15:55:22.072   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix persist.ace.performance.monitor.enabled remoteWatcherId 32 success
+02-25 15:55:22.073   2560-2560    C057c2/IPCObjectProxy          bm                    I     SendRequest 137: handle:10 desc:*.AbilityManager refcnt:3 381544592
+02-25 15:55:22.075   2560-2560    C03900/Ace                     bm                    I     [ace_new_pipe_judgement.cpp(110)-(-2:-1:undefined)] Init RenderService UniRender Type:0
+02-25 15:55:22.075   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(1534)-(-2:-1:undefined)] [com.example.testnapi][entry][-1]: UIContent: apiCompatibleVersion: 9, apiTargetVersion: 9, and apiReleaseType: Release, useNewPipe: 1
+02-25 15:55:22.080   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix persist.sys.arkui.animationscale remoteWatcherId 32 success
+02-25 15:55:22.080   2560-2563    C03900/Ace                     bm                    I     [system_properties.cpp(262)-(-1:-1:undefined)] AnimationScale: 0.500000 -> 0.500000
+02-25 15:55:22.082   2560-2560    C03900/Ace                     bm                    I     [localization.cpp(244)-(-2:-1:undefined)] SetLocale language tag: zh-CN, select language: zh-CN
+02-25 15:55:22.082   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(1608)-(-2:-1:undefined)] [com.example.testnapi][entry][-1]: SetLanguage: zh, colorMode: light, deviceAccess: 0
+02-25 15:55:22.082   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(1636)-(-2:-1:undefined)] [com.example.testnapi][entry][-1]: Initialize UIContent isModelJson:true
+02-25 15:55:22.088   2560-2560    C03900/Ace                     bm                    I     [ace_container.cpp(1635)-(100000:100000:scope)] SetHapPath, Use hap path to load resource
+02-25 15:55:22.088   2560-2560    C057c1/ProcessSkeleton         bm                    W     AttachObject 179: attach 385839920 desc:*.IDisplayManagerAgent assign
+02-25 15:55:22.089   2560-2560    C057c1/ProcessSkeleton         bm                    W     AttachObject 179: attach 385840080 desc:*.IDisplayManagerAgent assign
+02-25 15:55:22.093   2560-2560    C01706/rtg_interface           bm                    I     rtg Open fail, errno = 2(No such file or directory), dev = /proc/self/sched_rtg_ctrl
+02-25 15:55:22.093   2560-2560    C01400/OHOS::RS                bm                    I     RsFrameReport:[LoadLibrary] load library success!
+02-25 15:55:22.093   2560-2560    C01400/OHOS::RS                bm                    I     RsFrameReport:[Init] dlopen libframe_ui_intf.so success!
+02-25 15:55:22.093   2560-2560    C01706/ueaClient-RmeCoreSched  bm                    E     [Init]: do not enabled!ret: -1
+02-25 15:55:22.093   2560-2560    C01706/ueaClient-FrameMsgMgr   bm                    I     [Init]:inited success!
+02-25 15:55:22.093   2560-2560    C01706/ueaClient-FrameUiIntf   bm                    I     [Init]:ret:1, inited:1
+02-25 15:55:22.094   2560-2560    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.094   2560-2560    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.096   2560-2560    C01d05/accessibility_interface bm                    I     [accessible_ability_manager_service_proxy.cpp(AccessibleAbilityManagerServiceProxy:32)]AccessibleAbilityManagerServiceProxy construct.
+02-25 15:55:22.107   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix persist.sys.graphic.animationscale remoteWatcherId 32 success
+02-25 15:55:22.107   2560-2585    C02c03/PARAM_WATCHER           bm                    E     [watcher_manager_kits.cpp:166]Failed to add callback for persist.sys.graphic.animationscale
+02-25 15:55:22.107   2560-2585    C02c03/PARAM_WATCHER           bm                    E     [watcher_manager_kits.cpp:345]SystemWatchParameter is failed! keyPrefix is:persist.sys.graphic.animationscale, errNum is:110
+02-25 15:55:22.107   2560-2585    C02c0b/BEGET                   bm                    E     [service_watcher.c:83]WatchParameter failed! the errNum is 110
+02-25 15:55:22.111   2560-2586    C057c6/BinderInvoker           bm                    I     BinderInvoker 92: created invoker 359457040
+02-25 15:55:22.115   2560-2560    C03900/Ace                     bm                    I     [jsi_view_register_impl.cpp(1035)-(100000:100000:scope)] CleanUpIdleTask is a valid function
+02-25 15:55:22.119   2560-2586    C057c1/ProcessSkeleton         bm                    W     AttachObject 179: attach 319837328 desc:*.ISystemAbilityStatusChange assign
+02-25 15:55:22.120   2560-2560    C03900/Ace                     bm                    W     [ace_res_key_parser.cpp(129)-(100000:100000:scope)] Invalid config:zh_CN-notlong-notround-vertical-light-phone-hdpi
+02-25 15:55:22.123   2560-2560    C03900/Ace                     bm                    I     [ace_container.cpp(1907)-(100000:100000:scope)] New pipeline version creating...
+02-25 15:55:22.125   2560-2560    C03900/Ace                     bm                    I     [hap_asset_provider_impl.cpp(147)-(100000:100000:scope)] Cannot Get File List from resources/styles/
+02-25 15:55:22.126   2560-2586    C03d00/utils_base              bm                    E     path (/vendor/lib64/chipsetsdk/libEGL_impl.so) to realpath error: No such file or directory
+02-25 15:55:22.126   2560-2560    C03900/Ace                     bm                    W     [asset_manager_impl.cpp(65)-(100000:100000:scope)] GetAsset failed: resources/styles/default.json
+02-25 15:55:22.169   2560-2586    C03d00/utils_base              bm                    E     path (/vendor/lib64/chipsetsdk/libGLESv1_impl.so) to realpath error: No such file or directory
+02-25 15:55:22.178   2560-2586    C03d00/utils_base              bm                    E     path (/vendor/lib64/chipsetsdk/libGLESv2_impl.so) to realpath error: No such file or directory
+02-25 15:55:22.189   2560-2586    C03d00/utils_base              bm                    E     path (/vendor/lib64/chipsetsdk/libGLESv3_impl.so) to realpath error: No such file or directory
+02-25 15:55:22.189   2560-2560    C03900/Ace                     bm                    I     [root_pattern.h(63)-(100000:100000:scope)] root node OnAttachToFrameNode, id:0
+02-25 15:55:22.189   2560-2560    C03900/Ace                     bm                    I     [rosen_window.cpp(210)-(100000:100000:scope)] Rosenwindow set root frame node
+02-25 15:55:22.191   2560-2560    C01d02/accessibility_asacfwk   bm                    E     [accessibility_system_ability_client_impl.cpp(AccessibilitySystemAbilityClientImpl:55)]accessibility service is ready.
+02-25 15:55:22.193   2560-2560    C01d05/accessibility_interface bm                    I     [accessible_ability_manager_service_proxy.cpp(AccessibleAbilityManagerServiceProxy:32)]AccessibleAbilityManagerServiceProxy construct.
+02-25 15:55:22.195   2560-2586    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix debug.graphic.debug_layer remoteWatcherId 32 success
+02-25 15:55:22.196   2560-2586    C03d00/utils_base              bm                    E     path (/system/lib64/libiGraphicsCore.z.so) to realpath error: No such file or directory
+02-25 15:55:22.196   2560-2586    C01400/OpenGLWrapper           bm                    E     invalid display pointer.
+02-25 15:55:22.196   2560-2586    C01400/OpenGLWrapper           bm                    E     EGLDislay is invalid.
+02-25 15:55:22.196   2560-2586    C01400/OpenGLWrapper           bm                    W     ThreadPrivateDataCtl::SetError error = 12296.
+02-25 15:55:22.198   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix accessibility.config.ready remoteWatcherId 32 success
+02-25 15:55:22.198   2560-2560    C03924/AceAccessibility        bm                    I     [js_accessibility_manager.cpp(2263)-(100000:100000:scope)]  the result of SubscribeStateObserver:0
+02-25 15:55:22.198   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(2103)-(100000:100000:scope)] [com.example.testnapi][entry][100000]: window focus
+02-25 15:55:22.199   2560-2586    C01400/DISP                    bm                    I     [ohos_open_device@platform_ohos.c:1346] vendor_name (null)
+02-25 15:55:22.201   2560-2560    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix debug.graphic.frame remoteWatcherId 32 success
+02-25 15:55:22.201   2560-2560    C03900/Ace                     bm                    E     [ace_container.cpp(2364)-(100000:100000:scope)] ERROR EACCES
+02-25 15:55:22.202   2560-2560    C03900/Ace                     bm                    E     [ace_container.cpp(2364)-(100000:100000:scope)] ERROR EACCES
+02-25 15:55:22.202   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(1928)-(100000:100000:scope)] [com.example.testnapi][entry][100000]: SetMinPlatformVersion is 9
+02-25 15:55:22.202   2560-2560    C057c1/ProcessSkeleton         bm                    W     AttachObject 179: attach 385839280 desc:*.IDisplayManagerAgent assign
+02-25 15:55:22.202   2560-2586    C03f00/MUSL-LDSO               bm                    E     Open absolute_path library: check ns accessible failed, pathname /usr/local/lib/dri/tls/pvr_dri.so namespace ndk.
+02-25 15:55:22.202   2560-2586    C03f00/MUSL-LDSO               bm                    E     Error loading header /usr/local/lib/dri/tls/pvr_dri.so, namespace ndk has no inherits, errno=2
+02-25 15:55:22.202   2560-2586    C03f00/MUSL-LDSO               bm                    E     Error loading header: can't find library /usr/local/lib/dri/tls/pvr_dri.so in namespace: default
+02-25 15:55:22.202   2560-2586    C03f00/MUSL-LDSO               bm                    E     dlopen_impl load library header failed for /usr/local/lib/dri/tls/pvr_dri.so
+02-25 15:55:22.204   2560-2560    C0394e/AceWindow               bm                    I     [ui_content_impl.cpp(2030)-(100000:100000:scope)] DisplayAvailableRect info: 0, 0, 0, 0
+02-25 15:55:22.205   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(803)-(-2:100000:singleton)] [com.example.testnapi][entry][100000]: Initialize: pages/Index
+02-25 15:55:22.206   2560-2560    C03900/Ace                     bm                    I     [frontend_delegate_declarative.cpp(165)-(100000:100000:scope)] RunPage:pages/Index
+02-25 15:55:22.206   2560-2560    C03900/Ace                     bm                    W     [asset_manager_impl.cpp(65)-(100000:100000:scope)] GetAsset failed: manifest.json
+02-25 15:55:22.207   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(2483)-(-2:100000:singleton)] [com.example.testnapi][entry][100000]: UpdateWindowMode: 1, hasDeco: 0
+02-25 15:55:22.207   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(2491)-(-2:100000:singleton)] [com.example.testnapi][entry][100000]: UpdateWindowVisible: 0, hasDeco: 0
+02-25 15:55:22.207   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(2048)-(-2:100000:singleton)] [com.example.testnapi][entry][100000]: window foreground
+02-25 15:55:22.207   2560-2560    C03900/Ace                     bm                    I     [jsi_declarative_engine.cpp(2105)-(100000:100000:scope)] Update application state , state: ON_SHOW
+02-25 15:55:22.208   2560-2560    C03900/Ace                     bm                    I     [rosen_window.cpp(147)-(100000:100000:scope)] ArkUI requests first Vsync.
+02-25 15:55:22.208   2560-2560    C04202/WMSMain                 bm                    I     [vsync_station.cpp] RequestVsync<114>: First vsync has requested, nodeId: 10995116277761
+02-25 15:55:22.209   2560-2560    C01706/RsFrameReportExt        bm                    I     RsFrameReportExt:[LoadLibrary] load library success!
+02-25 15:55:22.209   2560-2560    C01706/RsFrameReportExt        bm                    I     RsFrameReportExt:[Init] dlopen libframe_ui_intf.so success!
+02-25 15:55:22.211   2560-2586    C03f00/MUSL-LDSO               bm                    E     Error loading header libGL_PVR_MESA.so, namespace ndk has no inherits, errno=2
+02-25 15:55:22.211   2560-2586    C03f00/MUSL-LDSO               bm                    E     Error loading header: can't find library libGL_PVR_MESA.so in namespace: default
+02-25 15:55:22.211   2560-2586    C03f00/MUSL-LDSO               bm                    E     dlopen_impl load library header failed for libGL_PVR_MESA.so
+02-25 15:55:22.211   2560-2560    C0420a/WMSLife                 bm                    I     [window_impl.cpp] SetUIContentInner<645>: notify window orientation change end.
+02-25 15:55:22.212   2560-2560    C03900/Ace                     bm                    I     [ui_content_impl.cpp(2365)-(-2:100000:singleton)] [com.example.testnapi][entry][100000]: UpdateViewportConfig Viewport config: size: (1200, 1680) orientation: 0 density: 1.500000 position: (0, 120) transformHint: 0
+02-25 15:55:22.212   2560-2560    C0394e/AceWindow               bm                    I     [ui_content_impl.cpp(2368)-(-2:100000:singleton)] Update orientation to : 0
+02-25 15:55:22.215   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:148] Supported screen extensions:[m
+02-25 15:55:22.216   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:158] 	DRI_TexBuffer (supported version: 3 - max version: 3)[m
+02-25 15:55:22.216   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:158] 	DRI2_Flush (supported version: 4 - max version: 4)[m
+02-25 15:55:22.216   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:158] 	DRI_IMAGE (supported version: 21 - max version: 20)[m
+02-25 15:55:22.216   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:158] 	DRI_Robustness (supported version: 1 - max version: 1)[m
+02-25 15:55:22.216   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:158] 	DRI_RENDERER_QUERY (supported version: 1 - max version: 1)[m
+02-25 15:55:22.216   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:158] 	DRI2_Fence (supported version: 2 - max version: 2)[m
+02-25 15:55:22.216   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:158] 	DRI2_BufferDamage (supported version: 1 - max version: 1)[m
+02-25 15:55:22.216   2560-2586    C01400/DISP                    bm                    E     [0;32;31m[PVRScreenPrintExtensions@pvrdri.c:158] 	DRI_CONFIG_QUERY (supported version: 2 - max version: 2)[m
+02-25 15:55:22.217   2560-2560    A00000/testTag                 bm                    I     Succeeded in loading the content.
+02-25 15:55:22.217   2560-2560    C04200/JsWindowStage           bm                    I     <338>[NAPI]Window [23, testnapi0] load content end, ret = 0
+02-25 15:55:22.217   2560-2560    C02d33/HitraceMeter            bm                    E     pid[2560] first get g_tagsProperty: 0
+02-25 15:55:22.217   2560-2560    C02d06/XCollie                 bm                    I     application is in starting period.
+02-25 15:55:22.217   2560-2560    C02d06/XCollie                 bm                    I     MainThread StartProfileMainThread ret: -1  Duration Time: 186 ms
+02-25 15:55:22.218   2560-2560    C03900/Ace                     bm                    I     [jsi_declarative_engine.cpp(2105)-(100000:100000:scope)] Update application state , state: ON_ACTIVE
+02-25 15:55:22.218   2560-2560    C01d02/accessibility_asacfwk   bm                    I     [accessibility_system_ability_client_impl.cpp(SubscribeStateObserver:484)]Observer has subscribed!
+02-25 15:55:22.218   2560-2560    C03924/AceAccessibility        bm                    I     [js_accessibility_manager.cpp(2263)-(100000:100000:scope)]  the result of SubscribeStateObserver:4001
+02-25 15:55:22.218   2560-2560    C0391c/AceFocus                bm                    I     [pipeline_context.cpp(3105)-(100000:100000:scope)] Window id: 23 get focus.
+02-25 15:55:22.218   2560-2560    C0391c/AceFocus                bm                    W     [focus_manager.cpp(421)-(100000:100000:scope)] Current focus view can not found!
+02-25 15:55:22.218   2560-2560    C0391c/AceFocus                bm                    I     [focus_hub.cpp(1127)-(100000:100000:scope)] Node(root/0) on focus
+02-25 15:55:22.219   2560-2586    C01400/OpenGLWrapper           bm                    I     initialized ver=1.5
+02-25 15:55:22.219   2560-2560    C03900/Ace                     bm                    I     [page_router_manager.cpp(1201)-(100000:100000:scope)] Page router manager is loading page[1]: pages/Index.
+02-25 15:55:22.234   2560-2560    C03f01/NAPI                    bm                    W     [(native_module_manager.cpp:635)(LoadNativeModule)] module 'chatgpt_napi' does not in cache
+02-25 15:55:22.241   2560-2560    C03f01/NAPI                    bm                    W     [(native_module_manager.cpp:1033)(FindNativeModuleByDisk)] mismatch: moduleName is chatgpt_napi, name is chatgpt
+02-25 15:55:22.241   2560-2560    C03f01/NAPI                    bm                    W     [(native_module_manager.cpp:1034)(FindNativeModuleByDisk)] suggestion: keep .nm_modname the same as moduleName imported or required
+02-25 15:55:22.242   2560-2560    A03d00/JSAPP                   bm                    I     ChatGPT native module loaded: [object Object]
+02-25 15:55:22.244   2560-2560    C03900/Ace                     bm                    I     [jsi_declarative_engine.cpp(1392)-(100000:100000:scope)] update rootComponent start
+02-25 15:55:22.244   2560-2586    C01400/OpenGLWrapper           bm                    E     invalid display pointer.
+02-25 15:55:22.244   2560-2586    C01400/OpenGLWrapper           bm                    E     EGLDislay is invalid.
+02-25 15:55:22.244   2560-2586    C01400/OpenGLWrapper           bm                    W     ThreadPrivateDataCtl::SetError error = 12296.
+02-25 15:55:22.245   2560-2586    C057c1/ProcessSkeleton         bm                    W     AttachObject 179: attach 317064912 desc:*.VSyncIConnectionToken assign
+02-25 15:55:22.247   2560-2560    A03d00/JSAPP                   bm                    I     Initializing ChatGPT service...
+02-25 15:55:22.247   2560-2560    A03d00/JSAPP                   bm                    I     ChatGPT service initialized successfully
+02-25 15:55:22.249   2560-2586    C01406/OHOS::RS                bm                    I     debug.graphic.overdraw disable
+02-25 15:55:22.252   2560-2586    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix debug.graphic.overdraw remoteWatcherId 32 success
+02-25 15:55:22.254   2560-2560    C03f00/MUSL-LDSO               bm                    E     Open absolute_path library: check ns accessible failed, pathname /system/lib/libstylus_innerapi.z.so namespace ndk.
+02-25 15:55:22.254   2560-2560    C03f00/MUSL-LDSO               bm                    E     Error loading header /system/lib/libstylus_innerapi.z.so, namespace ndk has no inherits, errno=2
+02-25 15:55:22.254   2560-2560    C03f00/MUSL-LDSO               bm                    E     Error loading header: can't find library /system/lib/libstylus_innerapi.z.so in namespace: default
+02-25 15:55:22.254   2560-2560    C03f00/MUSL-LDSO               bm                    E     dlopen_impl load library header failed for /system/lib/libstylus_innerapi.z.so
+02-25 15:55:22.255   2560-2586    C02c03/PARAM_WATCHER           bm                    I     [watcher_manager_kits.cpp:172]Add watcher keyPrefix debug.graphic.colors_overdraw remoteWatcherId 32 success
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains error_text_border_color_alpha!
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains disable_underline_alpha!
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains default_counter_color!
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains over_counter_color!
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains underline_color_alpha!
+02-25 15:55:22.255   2560-2586    C01707/CONCUR                  bm                    E     [Interface] task 2560 belong to user 20010049 open qos node failed, errno = 2
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains underline_color_alpha!
+02-25 15:55:22.255   2560-2586    C01406/OHOS::RS                bm                    I     RSRenderThread: SetThreadQos retcode = -1
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains cursor_width!
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains error_password_border_alpha!
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains over_count_border_color_alpha!
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains textinput_default_height!
+02-25 15:55:22.255   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style textfield_pattern not contains text_field_placeholder_linespacing!
+02-25 15:55:22.256   2560-2560    C03914/AceTextField            bm                    I     [text_field_model_ng.cpp(93)-(100000:100000:scope)] text field create node, id = 6
+02-25 15:55:22.257   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.257   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.257   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.257   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.259   2560-2560    C03914/AceTextField            bm                    I     [text_field_pattern.cpp(2608)-(100000:100000:scope)] textfield 6 Keyboard action is 8
+02-25 15:55:22.267   2560-2560    C03914/AceTextField            bm                    I     [txt_paragraph.cpp(196)-(100000:100000:scope)] destroy TxtParagraph with placeholderCnt_ 0, textAlign_ 0, count 0
+02-25 15:55:22.268   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style -1 not contains scroll_bar_pattern!
+02-25 15:55:22.274   2560-2560    C03926/AceTheme                bm                    W     [theme_style.h(125)-(100000:100000:scope)] style text_pattern not contains linear_split_child_min_size!
+02-25 15:55:22.276   2560-2560    C0391c/AceFocus                bm                    I     [focus_view.cpp(27)-(100000:100000:scope)] Focus view: page/2 show
+02-25 15:55:22.278   2560-2560    C03914/AceTextField            bm                    I     [text_field_pattern.cpp(4811)-(100000:100000:scope)] visible change to 1
+02-25 15:55:22.278   2560-2560    C03914/AceTextField            bm                    I     [text_field_pattern.cpp(4811)-(100000:100000:scope)] visible change to 1
+02-25 15:55:22.278   2560-2560    C03933/AceKeyboard             bm                    I     [stage_manager.cpp(170)-(100000:100000:scope)] StageManager FrameNode notNeedSoftKeyboard.
+02-25 15:55:22.278   2560-2560    C03933/AceKeyboard             bm                    I     [stage_manager.cpp(176)-(100000:100000:scope)] Container not ScenceBoardWindow.
+02-25 15:55:22.279   2560-2560    C04200/WindowImpl              bm                    I     <379>GetAvoidAreaByType Search Type: 1
+02-25 15:55:22.281   2560-2560    C03900/Ace                     bm                    I     [ace_container.cpp(2274)-(100000:100000:scope)] SafeArea get success, area type is:1 insets area is:SafeAreaInsets left_: [start: 0, end: 0], top_: [start: 0, end: 0], right_: [start: 0, end: 0], bottom_: [start: 0, end: 0]
+02-25 15:55:22.281   2560-2560    C0394e/AceWindow               bm                    I     [ui_content_impl.cpp(2412)-(100000:100000:scope)] Update displayAvailableRect to : Rect (0.00, 120.00) - [1200.00 x 1680.00]
+02-25 15:55:22.282   2560-2560    C03900/Ace                     bm                    I     [safe_area_manager.cpp(145)-(100000:100000:scope)] SafeAreaManager::SetIsFullScreen 1
+02-25 15:55:22.282   2560-2560    C03914/AceTextField            bm                    I     [text_field_pattern.cpp(4828)-(100000:100000:scope)] Textfield handleSurface change, new width 1200, new height 1680, prev width 0, prev height 0
+02-25 15:55:22.282   2560-2560    C03900/Ace                     bm                    I     [pipeline_context.cpp(278)-(100000:100000:scope)] Root node request first frame.
+02-25 15:55:22.283   2560-2560    C03914/AceTextField            bm                    I     [text_field_pattern.cpp(4848)-(100000:100000:scope)] Textfield handleSurface position change, posX 0, posY 120
+02-25 15:55:22.283   2560-2560    C04202/WMSMain                 bm                    I     [vsync_station.cpp] VsyncCallbackInner<167>: First vsync has come back, nodeId: 10995116277761
+02-25 15:55:22.295   2560-2596    C01719/ffrt                    bm                    W     42:TrivalOpenQosCtrlNode:64 pid 2560 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 15:55:22.295   2560-2576    C057c6/BinderInvoker           bm                    I     BinderInvoker 92: created invoker 306365952
+02-25 15:55:22.303   2560-2560    C01719/ffrt                    bm                    W     47:ffrt_skip:539 skip task [7] faild, because the task is doing now or has finished.
+02-25 15:55:22.307   2560-2560    C03900/Ace                     bm                    E     [rosen_modifier_adapter.cpp(159)-(100000:100000:scope)] ConvertToRSProperty failed!
+02-25 15:55:22.313   2560-2560    C03900/Ace                     bm                    I     [pipeline_context.cpp(651)-(100000:100000:scope)] ArkUi flush first frame messages.
+02-25 15:55:22.313   2560-2560    C0391c/AceFocus                bm                    I     [focus_view.cpp(229)-(100000:100000:scope)] Request focus on focus view: page/2.
+02-25 15:55:22.314   2560-2560    C0391c/AceFocus                bm                    I     [focus_view.cpp(242)-(100000:100000:scope)] Focus view has no default focus.
+02-25 15:55:22.314   2560-2560    C0391c/AceFocus                bm                    I     [focus_hub.cpp(1127)-(100000:100000:scope)] Node(page/2) on focus
+02-25 15:55:22.314   2560-2560    C0391c/AceFocus                bm                    I     [focus_hub.cpp(1127)-(100000:100000:scope)] Node(Column/5) on focus
+02-25 15:55:22.314   2560-2560    C0391c/AceFocus                bm                    I     [focus_view.cpp(259)-(100000:100000:scope)] Request focus on view root scope: Column/5 return: 1.
+02-25 15:55:22.314   2560-2560    C0391c/AceFocus                bm                    I     [focus_manager.cpp(365)-(100000:100000:scope)] WindowFocusMove end, startReason: 2, endReason: 2, updateReason: 2
+02-25 15:55:22.314   2560-2560    C03933/AceKeyboard             bm                    I     [input_method_manager_ohos.cpp(52)-(100000:100000:scope)] current focus node info : (Column/5).
+02-25 15:55:22.314   2560-2560    C03933/AceKeyboard             bm                    I     [input_method_manager_ohos.cpp(110)-(100000:100000:scope)] Normal Window focus first, set focus flag to window.
+02-25 15:55:22.314   2560-2560    C03933/AceKeyboard             bm                    I     [input_method_manager_ohos.cpp(117)-(100000:100000:scope)] No Window Focus Callback
+02-25 15:55:22.314   2560-2560    C03933/AceKeyboard             bm                    I     [pipeline_context.cpp(184)-(100000:100000:scope)] window switch need keyboard <private>
+02-25 15:55:22.314   2560-2560    C03933/AceKeyboard             bm                    I     [input_method_manager_ohos.cpp(223)-(100000:100000:scope)] Nav CloseKeyboard FrameNode notNeedSoftKeyboard.
+02-25 15:55:22.315   2560-2560    C01c10/ImsaKit                 bm                    I     line: 144, function: GetSystemAbilityProxy,get input method service proxy
+02-25 15:55:22.320   2560-2560    C03933/AceKeyboard             bm                    I     [input_method_manager_ohos.cpp(228)-(100000:100000:scope)] Nav CloseKeyboard SoftKeyboard Closes Successfully.
+02-25 15:55:22.321   2560-2560    C03903/AceSubWindow            bm                    I     [subwindow_manager.cpp(295)-(100000:100000:scope)] hide menu ng enter
+02-25 15:55:22.328   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.328   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.328   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.328   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.328   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.328   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.329   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.329   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.329   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.329   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.329   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNodeDrawableAdapter::OnGenerate, node type <private> is not supported
+02-25 15:55:22.329   2560-2586    C01406/OHOS::RS                bm                    E     RSRenderNode::InitRenderParams failed
+02-25 15:55:22.339   2560-2586    C03f00/MUSL-LDSO               bm                    E     Open absolute_path library: check ns accessible failed, pathname /system/lib64/libGLESv3.so namespace ndk.
+02-25 15:55:22.339   2560-2586    C03f00/MUSL-LDSO               bm                    E     Error loading header /system/lib64/libGLESv3.so, namespace ndk has no inherits, errno=2
+02-25 15:55:22.339   2560-2586    C03f00/MUSL-LDSO               bm                    E     Error loading header: can't find library /system/lib64/libGLESv3.so in namespace: default
+02-25 15:55:22.339   2560-2586    C03f00/MUSL-LDSO               bm                    E     dlopen_impl load library header failed for /system/lib64/libGLESv3.so
+02-25 15:55:22.447   2560-2586    C01706/RsFrameReportExt        bm                    I     RsFrameReportExt:[LoadLibrary] load library success!
+02-25 15:55:22.447   2560-2586    C01706/RsFrameReportExt        bm                    I     RsFrameReportExt:[Init] dlopen libframe_ui_intf.so success!
+02-25 15:55:22.900   2560-2618    C01719/ffrt                    bm                    W     56:TrivalOpenQosCtrlNode:64 pid 2560 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 15:55:22.900   2560-2619    C01719/ffrt                    bm                    W     67:TrivalOpenQosCtrlNode:64 pid 2560 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 15:55:24.525   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: down: 912
+02-25 15:55:24.525   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [P:D:912][OnPointerEvent:490] id:912 recv
+02-25 15:55:24.525   2560-2578    C04213/InputKeyFlow            com.example.testnapi  I     [input_transfer_station.cpp] OnInputEvent<82>: eid:0,InputId:912,wid:23,action:2
+02-25 15:55:24.525   2560-2578    C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 301602528
+02-25 15:55:24.526   2560-2578    C03900/Ace                     com.example.testnapi  I     [mmi_event_convertor.cpp(553)-(-1:100000:singleton)] pointdown windowId: 23
+02-25 15:55:24.528   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [pipeline_context.cpp(2097)-(100000:100000:scope)] InputTracking id:912, fingerId:0, x=216.000, y=97.000 type=0, inject=0
+02-25 15:55:24.530   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: move: 913
+02-25 15:55:24.534   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [event_manager.cpp(221)-(100000:100000:scope)] InputTracking id:912, touch test hitted node info: fingerId: 0{ tag: TextArea, frameRect: RectT (87.00, 45.00) - [1026.00 x 150.00], depth: 6 };
+02-25 15:55:24.534   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [event_manager.cpp(308)-(100000:100000:scope)] InputTracking id:912, touch test hitted recognizer type info: recognizer type ClickRecognizer node info: { tag: TextArea };recognizer type LongPressRecognizer node info: { tag: TextArea }; { tag: TextArea }; { tag: TextArea };recognizer type PanRecognizer node info: { tag: TextArea }; { tag: TextArea };
+02-25 15:55:24.535   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [exclusive_recognizer.cpp(110)-(100000:100000:scope)] Id:912, exclusive 0 type: 0
+02-25 15:55:24.535   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(210)-(100000:100000:scope)] Id:912, click 0 down, ETF: 0, CTP: 0, state: 0
+02-25 15:55:24.535   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [pan_recognizer.cpp(209)-(100000:100000:scope)] Id:912, pan 0 down, state: 0
+02-25 15:55:24.536   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [parallel_recognizer.cpp(93)-(100000:100000:scope)] Id:912, parallel 0 type: 0
+02-25 15:55:24.536   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(127)-(100000:100000:scope)] Id:912, LongPress 0 down, state: 0
+02-25 15:55:24.536   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [sequenced_recognizer.cpp(126)-(100000:100000:scope)] Id:912, sequenced 0 type: 0
+02-25 15:55:24.536   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(127)-(100000:100000:scope)] Id:912, LongPress 0 down, state: 0
+02-25 15:55:24.536   2560-2560    C0391e/AceGesture              com.example.testnapi  I     [gesture_recognizer.cpp(526)-(100000:100000:scope)] Recognizer has already receive touchId: 0 event, node tag = TextArea, id = 6
+02-25 15:55:24.536   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(127)-(100000:100000:scope)] Id:912, LongPress 0 down, state: 0
+02-25 15:55:24.540   2560-2560    C03919/AceInputTracking        com.example.testnapi  I     [event_manager.cpp(2042)-(100000:100000:scope)] Consumed new event id=912 in ace_container, lastEventInfo: id:913
+02-25 15:55:24.540   2560-2667    C01719/ffrt                    com.example.testnapi  W     91:TrivalOpenQosCtrlNode:64 pid 2560 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 15:55:24.540   2560-2667    C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 299667488
+02-25 15:55:24.540   2560-2668    C01719/ffrt                    com.example.testnapi  W     98:TrivalOpenQosCtrlNode:64 pid 2560 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 15:55:24.541   2560-2668    C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 299667984
+02-25 15:55:24.629   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: up: 914
+02-25 15:55:24.629   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [P:U:914][OnPointerEvent:490] id:914 recv
+02-25 15:55:24.629   2560-2578    C04213/InputKeyFlow            com.example.testnapi  I     [input_transfer_station.cpp] OnInputEvent<82>: eid:1,InputId:914,wid:23,action:4
+02-25 15:55:24.630   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [pipeline_context.cpp(2097)-(100000:100000:scope)] InputTracking id:914, fingerId:0, x=216.000, y=97.000 type=1, inject=0
+02-25 15:55:24.632   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [exclusive_recognizer.cpp(110)-(100000:100000:scope)] Id:914, exclusive 0 type: 1
+02-25 15:55:24.632   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(271)-(100000:100000:scope)] Id:914, click 0 up, state: 0
+02-25 15:55:24.632   2560-2560    C0391e/AceGesture              com.example.testnapi  I     [click_recognizer.cpp(306)-(100000:100000:scope)] Click try accept
+02-25 15:55:24.633   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(163)-(100000:100000:scope)] Click accepted, tag: TextArea
+02-25 15:55:24.633   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(2196)-(100000:100000:scope)] textfield 6 request focus currently
+02-25 15:55:24.634   2560-2560    C0391c/AceFocus                com.example.testnapi  I     [focus_hub.cpp(1127)-(100000:100000:scope)] Node(TextArea/6) on focus
+02-25 15:55:24.634   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(924)-(100000:100000:scope)] TextField 6 on focus
+02-25 15:55:24.634   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(4749)-(100000:100000:scope)] 6 RequestKeyboardByFocusSwitch: onFocus_: 0 Inner: 1 modalCovered: 0
+02-25 15:55:24.634   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(4758)-(100000:100000:scope)] 6 add requestkeyboard task
+02-25 15:55:24.634   2560-2560    C0391c/AceFocus                com.example.testnapi  I     [focus_manager.cpp(338)-(100000:100000:scope)] FocusSwitching end, startReason: 2, endReason: 4, updateReason: 2
+02-25 15:55:24.635   2560-2560    C03933/AceKeyboard             com.example.testnapi  I     [input_method_manager_ohos.cpp(52)-(100000:100000:scope)] current focus node info : (TextArea/6).
+02-25 15:55:24.635   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_input_ai_checker.cpp(25)-(100000:100000:scope)] NeedAIAnalysis type is 0,return!
+02-25 15:55:24.635   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_select_controller.cpp(166)-(100000:100000:scope)] now caret index = [0]
+02-25 15:55:24.635   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(2274)-(100000:100000:scope)] DoProcessAutoFill
+02-25 15:55:24.636   2560-2560    C03f00/MUSL-LDSO               com.example.testnapi  E     Open absolute_path library: check ns accessible failed, pathname /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so namespace ndk.
+02-25 15:55:24.636   2560-2560    C03f00/MUSL-LDSO               com.example.testnapi  E     Error loading header /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so, namespace ndk has no inherits, errno=2
+02-25 15:55:24.636   2560-2560    C03f00/MUSL-LDSO               com.example.testnapi  E     Error loading header: can't find library /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so in namespace: default
+02-25 15:55:24.636   2560-2560    C03f00/MUSL-LDSO               com.example.testnapi  E     dlopen_impl load library header failed for /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so
+02-25 15:55:24.636   2560-2560    C03900/Ace                     com.example.testnapi  E     [view_data_wrap_ohos.cpp(74)-(100000:100000:scope)] Failed to open libhint2type library /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so, reason: Error loading shared library /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so: No such file or directoryn
+02-25 15:55:24.636   2560-2560    C03932/AceAutoFill             com.example.testnapi  E     [ace_container.cpp(1375)-(100000:100000:scope)] Load Hint2Type Failed !
+02-25 15:55:24.636   2560-2560    C03932/AceAutoFill             com.example.testnapi  E     [text_field_pattern.cpp(2318)-(100000:100000:scope)] CheckAutoFillType :autoFillType is ACE_UNSPECIFIED.
+02-25 15:55:24.636   2560-2560    C03932/AceAutoFill             com.example.testnapi  I     [text_field_pattern.cpp(2421)-(100000:100000:scope)] No need to auto fill.
+02-25 15:55:24.636   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(4786)-(100000:100000:scope)] 6 requestKeyboard With Reason 2
+02-25 15:55:24.636   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3578)-(100000:100000:scope)] textfield to request keyboardshowsoftkeyboard: 1
+02-25 15:55:24.637   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 15:55:24.637   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3605)-(100000:100000:scope)] node 6 RequestKeyboard set calling window id:23 inputType: -1 enterKeyType: 8
+02-25 15:55:24.638   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 231, function: Attach,isShowKeyboard 1
+02-25 15:55:24.661   2560-2563    C03914/AceTextField            com.example.testnapi  I     [on_text_changed_listener_impl.cpp(142)-(-1:100000:singleton)] SendKeyboardStatus status: 2
+02-25 15:55:24.661   2560-2563    C03914/AceTextField            com.example.testnapi  I     [on_text_changed_listener_impl.cpp(86)-(-1:100000:singleton)] SetKeyboardStatus status: 1
+02-25 15:55:24.665   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 941, function: OnInputReady,IMC
+02-25 15:55:24.666   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 255, function: Attach,bind imf successfully
+02-25 15:55:24.666   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 15:55:24.666   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 626, function: OnCursorUpdate,left: 111, top: 177, height: 28
+02-25 15:55:24.669   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 660, function: OnSelectionChange,IMC size: 0, range: 0/0/0/0
+02-25 15:55:24.670   2560-2563    C03900/Ace                     com.example.testnapi  I     [ui_content_impl.cpp(393)-(-1:100000:singleton)] OccupiedAreaChange rect:Rect (0.00, 855.00) - [1200.00 x 825.00] type: 0, positionY:0.000000, height:0.000000, instanceId_ 100000
+02-25 15:55:24.670   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(697)-(100000:100000:scope)] UpdateCaretInfoToController, left 111.000000, top 177.000000, width 3.000000, height 28.000000, selectController_ Start 0, end 0
+02-25 15:55:24.672   2560-2560    C03905/AceDrag                 com.example.testnapi  I     [drag_event.cpp(469)-(100000:100000:scope)] Tragger pan onReject
+02-25 15:55:24.672   2560-2560    C03905/AceDrag                 com.example.testnapi  I     [drag_event.cpp(469)-(100000:100000:scope)] Tragger pan onReject
+02-25 15:55:24.672   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [pan_recognizer.cpp(296)-(100000:100000:scope)] Id:914, pan 0 up, state: 6
+02-25 15:55:24.673   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [parallel_recognizer.cpp(93)-(100000:100000:scope)] Id:914, parallel 0 type: 1
+02-25 15:55:24.673   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(184)-(100000:100000:scope)] Id:914, LongPress 0 up, state: 6
+02-25 15:55:24.673   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [sequenced_recognizer.cpp(126)-(100000:100000:scope)] Id:914, sequenced 0 type: 1
+02-25 15:55:24.673   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(184)-(100000:100000:scope)] Id:914, LongPress 0 up, state: 6
+02-25 15:55:24.673   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(184)-(100000:100000:scope)] Id:914, LongPress 0 up, state: 6
+02-25 15:55:24.673   2560-2560    C03919/AceInputTracking        com.example.testnapi  I     [event_manager.cpp(2042)-(100000:100000:scope)] Consumed new event id=914 in ace_container, lastEventInfo: id:913
+02-25 15:55:24.677   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 15:55:24.677   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(683)-(100000:100000:scope)] UpdateCaretInfoToController, same to update caretInfo
+02-25 15:55:24.677   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(4765)-(100000:100000:scope)] Already call close/attach before attach, no need attach this time
+02-25 15:55:24.678   2560-2560    C03933/AceKeyboard             com.example.testnapi  I     [pipeline_context.cpp(1804)-(100000:100000:scope)] origin positionY: -120.000000, height 0.000000
+02-25 15:55:24.678   2560-2560    C03933/AceKeyboard             com.example.testnapi  I     [pipeline_context.cpp(1853)-(100000:100000:scope)] keyboardHeight: 825.000000, positionY: 57.000000, textHeight: 64.000000, rootSize.Height() 1680.000000 final calculate keyboard offset is 0.000000
+02-25 15:55:25.854   2560-2563    C03914/AceTextField            com.example.testnapi  I     [on_text_changed_listener_impl.cpp(39)-(-1:100000:singleton)] InsertText length:1
+02-25 15:55:25.864   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3879)-(100000:100000:scope)] BeforeIMEInsertValue len:<private>,offset:<private>
+02-25 15:55:25.865   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3894)-(100000:100000:scope)] AfterIMEInsertValue len:<private>,offset:<private>
+02-25 15:55:25.869   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(414)-(100000:100000:scope)] before move, handleRect.GetX():37.919952,handleRect.GetY():12.000000
+02-25 15:55:25.869   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(450)-(100000:100000:scope)] after move, handleRect.GetX():36.419952,handleRect.GetY():12.000000
+02-25 15:55:25.869   2560-2560    C03926/AceTheme                com.example.testnapi  W     [theme_style.h(125)-(100000:100000:scope)] style text_overlay_pattern not contains bg_color_disabled_alpha!
+02-25 15:55:25.869   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 15:55:25.870   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 626, function: OnCursorUpdate,left: 123, top: 177, height: 28
+02-25 15:55:25.870   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 660, function: OnSelectionChange,IMC size: 1, range: 0/0/1/1
+02-25 15:55:25.871   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(697)-(100000:100000:scope)] UpdateCaretInfoToController, left 123.419952, top 177.000000, width 3.000000, height 28.000000, selectController_ Start 1, end 1
+02-25 15:55:25.872   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(165)-(100000:100000:scope)] On change <private>
+02-25 15:55:25.872   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(166)-(100000:100000:scope)] On change previewText <private>
+02-25 15:55:25.872   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(167)-(100000:100000:scope)] On change previewText index <private>
+02-25 15:55:25.884   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_model_ng.cpp(93)-(100000:100000:scope)] text field create node, id = 6
+02-25 15:55:25.885   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(2608)-(100000:100000:scope)] textfield 6 Keyboard action is 8
+02-25 15:55:25.892   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(414)-(100000:100000:scope)] before move, handleRect.GetX():37.919952,handleRect.GetY():12.000000
+02-25 15:55:25.892   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(450)-(100000:100000:scope)] after move, handleRect.GetX():36.419952,handleRect.GetY():12.000000
+02-25 15:55:25.892   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 15:55:25.892   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(683)-(100000:100000:scope)] UpdateCaretInfoToController, same to update caretInfo
+02-25 15:55:26.281   2560-2563    C03914/AceTextField            com.example.testnapi  I     [on_text_changed_listener_impl.cpp(39)-(-1:100000:singleton)] InsertText length:1
+02-25 15:55:26.293   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3879)-(100000:100000:scope)] BeforeIMEInsertValue len:<private>,offset:<private>
+02-25 15:55:26.293   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3894)-(100000:100000:scope)] AfterIMEInsertValue len:<private>,offset:<private>
+02-25 15:55:26.296   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(414)-(100000:100000:scope)] before move, handleRect.GetX():43.703934,handleRect.GetY():12.000000
+02-25 15:55:26.296   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(450)-(100000:100000:scope)] after move, handleRect.GetX():42.203934,handleRect.GetY():12.000000
+02-25 15:55:26.297   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 15:55:26.297   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 626, function: OnCursorUpdate,left: 129, top: 177, height: 28
+02-25 15:55:26.298   2560-2560    C01c10/ImsaKit                 com.example.testnapi  I     line: 660, function: OnSelectionChange,IMC size: 2, range: 1/1/2/2
+02-25 15:55:26.298   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(697)-(100000:100000:scope)] UpdateCaretInfoToController, left 129.203934, top 177.000000, width 3.000000, height 28.000000, selectController_ Start 2, end 2
+02-25 15:55:26.299   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(165)-(100000:100000:scope)] On change <private>
+02-25 15:55:26.299   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(166)-(100000:100000:scope)] On change previewText <private>
+02-25 15:55:26.299   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(167)-(100000:100000:scope)] On change previewText index <private>
+02-25 15:55:26.311   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_model_ng.cpp(93)-(100000:100000:scope)] text field create node, id = 6
+02-25 15:55:26.311   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(2608)-(100000:100000:scope)] textfield 6 Keyboard action is 8
+02-25 15:55:26.315   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(414)-(100000:100000:scope)] before move, handleRect.GetX():43.703934,handleRect.GetY():12.000000
+02-25 15:55:26.315   2560-2560    C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(450)-(100000:100000:scope)] after move, handleRect.GetX():42.203934,handleRect.GetY():12.000000
+02-25 15:55:26.316   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 15:55:26.316   2560-2560    C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(683)-(100000:100000:scope)] UpdateCaretInfoToController, same to update caretInfo
+02-25 15:55:27.488   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: down: 921
+02-25 15:55:27.488   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [P:D:921][OnPointerEvent:490] id:921 recv
+02-25 15:55:27.488   2560-2578    C04213/InputKeyFlow            com.example.testnapi  I     [input_transfer_station.cpp] OnInputEvent<82>: eid:2,InputId:921,wid:23,action:2
+02-25 15:55:27.488   2560-2578    C03900/Ace                     com.example.testnapi  I     [mmi_event_convertor.cpp(553)-(-1:100000:singleton)] pointdown windowId: 23
+02-25 15:55:27.489   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [pipeline_context.cpp(2097)-(100000:100000:scope)] InputTracking id:921, fingerId:0, x=588.000, y=272.000 type=0, inject=0
+02-25 15:55:27.491   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [event_manager.cpp(221)-(100000:100000:scope)] InputTracking id:921, touch test hitted node info: fingerId: 0{ tag: Button, frameRect: RectT (87.00, 225.00) - [1026.00 x 60.00], depth: 6 };
+02-25 15:55:27.491   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [event_manager.cpp(308)-(100000:100000:scope)] InputTracking id:921, touch test hitted recognizer type info: recognizer type ClickRecognizer node info: { tag: Button };
+02-25 15:55:27.492   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(210)-(100000:100000:scope)] Id:921, click 0 down, ETF: 0, CTP: 0, state: 0
+02-25 15:55:27.492   2560-2560    C03919/AceInputTracking        com.example.testnapi  I     [event_manager.cpp(2042)-(100000:100000:scope)] Consumed new event id=921 in ace_container, lastEventInfo: id:913
+02-25 15:55:27.495   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: move: 922
+02-25 15:55:27.574   2560-2586    C01406/OHOS::RS                com.example.testnapi  I     RSUIDirector::ProcessMessages messageId:1, cmdCount:1, instanceId:100000
+02-25 15:55:27.575   2560-2560    C01406/OHOS::RS                com.example.testnapi  I     RSUIDirector::PostTask messageId:1, cmdCount:1, instanceId:100000
+02-25 15:55:27.701   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: up: 923
+02-25 15:55:27.701   2560-2578    C02805/InputKeyFlow            com.example.testnapi  I     [P:U:923][OnPointerEvent:490] id:923 recv
+02-25 15:55:27.701   2560-2578    C04213/InputKeyFlow            com.example.testnapi  I     [input_transfer_station.cpp] OnInputEvent<82>: eid:3,InputId:923,wid:23,action:4
+02-25 15:55:27.702   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [pipeline_context.cpp(2097)-(100000:100000:scope)] InputTracking id:923, fingerId:0, x=588.000, y=272.000 type=1, inject=0
+02-25 15:55:27.703   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(271)-(100000:100000:scope)] Id:923, click 0 up, state: 0
+02-25 15:55:27.704   2560-2560    C0391e/AceGesture              com.example.testnapi  I     [click_recognizer.cpp(306)-(100000:100000:scope)] Click try accept
+02-25 15:55:27.704   2560-2560    C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(163)-(100000:100000:scope)] Click accepted, tag: Button
+02-25 15:55:27.706   2560-2560    A03d00/JSAPP                   com.example.testnapi  I     Generating response for input: hi
+02-25 15:55:27.707   2560-2560    C01650/ChatGPT                 com.example.testnapi  I     ChatGPT instance created
+02-25 15:55:27.708   2560-2560    C01650/ChatGPT                 com.example.testnapi  I     CURL initialized successfully
+02-25 15:55:27.709   2560-2560    C01650/ChatGPT                 com.example.testnapi  I     Making request to Ollama API
+02-25 15:55:31.313   2560-2576    C01719/ffrt                    com.example.testnapi  W     349:~WorkerThread:65 WorkerThread enter destruction
+02-25 15:55:31.313   2560-2576    C057c6/BinderInvoker           com.example.testnapi  I     ~BinderInvoker 97: destroyed invoker 306365952
+02-25 15:55:31.325   2560-2596    C01719/ffrt                    com.example.testnapi  W     353:~WorkerThread:65 WorkerThread enter destruction
+02-25 15:55:32.494   2560-2668    C01719/ffrt                    com.example.testnapi  W     374:~WorkerThread:65 WorkerThread enter destruction
+02-25 15:55:32.494   2560-2668    C057c6/BinderInvoker           com.example.testnapi  I     ~BinderInvoker 97: destroyed invoker 299667984
+02-25 15:55:32.497   2560-2667    C01719/ffrt                    com.example.testnapi  W     378:~WorkerThread:65 WorkerThread enter destruction
+02-25 15:55:32.497   2560-2667    C057c6/BinderInvoker           com.example.testnapi  I     ~BinderInvoker 97: destroyed invoker 299667488
+02-25 15:55:34.828   2560-3064    C01719/ffrt                    com.example.testnapi  W     419:TrivalOpenQosCtrlNode:64 pid 2560 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 15:55:34.829   2560-3064    C01201/EventHandler            com.example.testnapi  I     EventHandler start dumper!
+02-25 15:55:34.831   2560-3064    C01310/AppDfr                  com.example.testnapi  I     [appfreeze_inner.cpp:229]Start NotifyAppFault:THREAD_BLOCK_3S, pid:2560, bundleName:com.example.testnapi.
+02-25 15:55:34.832   2560-3064    C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 299573008
+02-25 15:55:34.835   2560-2562    C03f00/MUSL-SIGCHAIN           com.example.testnapi  E     signal_chain_handler call 2 rd sigchain action for signal: 35 sca_sigaction=3f9a0c670c noreturn=0 FREEZE_signo_35 thread_list_lock_status:0tl_lock_count=0 tl_lock_waiters=0tl_lock_tid_fail=-1 tl_lock_count_tid=199
+02-25 15:55:34.836   2560-2562    C02d11/DfxSignalHandler        com.example.testnapi  I     DFX_SigchainHandler :: sig(35), pid(2560), tid(2562).
+02-25 15:55:34.836   2560-2562    C02d11/DfxSignalHandler        com.example.testnapi  I     DFX_SigchainHandler :: sig(35), pid(2560), processName(com.example.testnapi), threadName(OS_IPC_0_2562).
+02-25 15:55:34.938   2560-3069    C057c1/IPCWorkThread           com.example.testnapi  I     ThreadHandler 110: proto:0 policy:0 name:OS_IPC_3_3069
+02-25 15:55:34.939   2560-3069    C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 299573552
+02-25 15:55:34.940   2560-2563    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24588398909140
+02-25 15:55:34.940   2560-2562    C02d11/DfxSignalHandler        com.example.testnapi  I     start wait processdump read registers
+02-25 15:55:34.970   2560-2562    C02d11/DfxSignalHandler        com.example.testnapi  I     processdump have get all registers .
+02-25 15:55:35.025   2560-2566    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24588484085223
+02-25 15:55:35.025   2560-2563    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24588484156806
+02-25 15:55:35.025   2560-3069    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24588484482681
+02-25 15:55:35.055   2560-2562    C02d11/DfxSignalHandler        com.example.testnapi  I     process dump end
+02-25 15:55:35.055   2560-2562    C02d11/DfxSignalHandler        com.example.testnapi  I     Finish handle signal(35) in 2560:2562
+02-25 15:55:35.055   2560-2562    C03f00/MUSL-SIGCHAIN           com.example.testnapi  E     signal_chain_handler call 2 rd sigchain action for signal: 35 directly return
+02-25 15:55:35.055   2560-2562    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24588514170681
+02-25 15:55:35.627   2560-2563    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24589085985015
+02-25 15:55:37.828   2560-3064    C01201/EventHandler            com.example.testnapi  I     EventHandler start dumper!
+02-25 15:55:37.831   2560-3064    C057c2/IPCObjectProxy          com.example.testnapi  I     SendRequest 137: handle:10 desc:*.AbilityManager refcnt:3 381544592
+02-25 15:55:37.842   2560-3064    C01310/AppDfr                  com.example.testnapi  I     [appfreeze_inner.cpp:134]hisysevent write result=0, send event [FRAMEWORK,PROCESS_KILL], pid=2560, processName=com.example.testnapi, msg=Kill Reason:THREAD_BLOCK_6S
+02-25 15:55:37.842   2560-3064    C01310/AppDfr                  com.example.testnapi  I     [appfreeze_inner.cpp:229]Start NotifyAppFault:THREAD_BLOCK_6S, pid:2560, bundleName:com.example.testnapi.
+02-25 15:55:37.844   2560-3064    C01356/Recovery                com.example.testnapi  E     [app_recovery.cpp:171]is not enabled
+02-25 15:55:37.844   2560-3064    C01356/Recovery                com.example.testnapi  E     [app_recovery.cpp:229]not enabled
+02-25 15:55:37.846   2560-2563    C03f00/MUSL-SIGCHAIN           com.example.testnapi  E     signal_chain_handler call 2 rd sigchain action for signal: 35 sca_sigaction=3f9a0c670c noreturn=0 FREEZE_signo_35 thread_list_lock_status:0tl_lock_count=0 tl_lock_waiters=0tl_lock_tid_fail=-1 tl_lock_count_tid=199
+02-25 15:55:37.846   2560-2563    C02d11/DfxSignalHandler        com.example.testnapi  I     DFX_SigchainHandler :: sig(35), pid(2560), tid(2563).
+02-25 15:55:37.846   2560-2563    C02d11/DfxSignalHandler        com.example.testnapi  I     DFX_SigchainHandler :: sig(35), pid(2560), processName(com.example.testnapi), threadName(OS_IPC_1_2563).
+02-25 15:55:37.937   2560-2563    C02d11/DfxSignalHandler        com.example.testnapi  I     start wait processdump read registers
+02-25 15:55:37.937   2560-3198    C057c1/IPCWorkThread           com.example.testnapi  I     ThreadHandler 110: proto:0 policy:0 name:OS_IPC_4_3198
+02-25 15:55:37.938   2560-3198    C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 299574992
+02-25 15:55:37.964   2560-2563    C02d11/DfxSignalHandler        com.example.testnapi  I     processdump have get all registers .
+02-25 15:55:38.016   2560-2566    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24591475403308
+02-25 15:55:38.016   2560-3069    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24591475594850
+02-25 15:55:38.016   2560-2562    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24591475424308
+02-25 15:55:38.016   2560-3198    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24591475736683
+02-25 15:55:38.046   2560-2563    C02d11/DfxSignalHandler        com.example.testnapi  I     process dump end
+02-25 15:55:38.047   2560-2563    C02d11/DfxSignalHandler        com.example.testnapi  I     Finish handle signal(35) in 2560:2563
+02-25 15:55:38.047   2560-2563    C03f00/MUSL-SIGCHAIN           com.example.testnapi  E     signal_chain_handler call 2 rd sigchain action for signal: 35 directly return
+02-25 15:55:38.047   2560-2563    C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:24591505926600

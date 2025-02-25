@@ -1,0 +1,48 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/duancheng/.ohos/config/openharmony/default_testNapi_wpn4Gm25S452LNIYbO-M65sz3Mb8QIpuetVNoJsVcOM=.cer",
+          "storePassword": "0000001B14D28EC86DADA463E050E188A537888A9989C8D3B6E50C52B74903EBA1F6D4B875299ECE20BDDD",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BB2DA485131EE972C6C4C054FCF84B3B564265AB2C420F17DC96D1D152412FB7645A7D60C069737",
+          "profile": "C:/Users/duancheng/.ohos/config/openharmony/default_testNapi_wpn4Gm25S452LNIYbO-M65sz3Mb8QIpuetVNoJsVcOM=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/duancheng/.ohos/config/openharmony/default_testNapi_wpn4Gm25S452LNIYbO-M65sz3Mb8QIpuetVNoJsVcOM=.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

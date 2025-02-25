@@ -1,0 +1,1380 @@
+<12>[22360.787529] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22360.794406] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 16812) exit with code : 0
+<12>[22360.794444] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:16812 uid:1009 status:0.
+<14>[22360.794461] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 16812.
+<14>[22360.794669] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22360.795663] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 16814 uid 1009)
+<14>[22360.795696] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740467907-334440722,preforktime:1740467907-334496639,startedtime:1740467907-335414097
+<14>[22360.796222] [pid=16814][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22360.842146] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22360.852018] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 16814) exit with code : 0
+<12>[22360.852056] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:16814 uid:1009 status:0.
+<14>[22360.852072] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 16814.
+<14>[22360.852281] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22360.853268] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 16819 uid 1009)
+<14>[22360.853305] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740467907-392052639,preforktime:1740467907-392092264,startedtime:1740467907-393018722
+<14>[22360.853872] [pid=16819][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22360.911726] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22360.920456] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 16819) exit with code : 0
+<12>[22360.920494] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:16819 uid:1009 status:0.
+<14>[22360.920511] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 16819.
+<14>[22360.920726] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22360.921777] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 16823 uid 1009)
+<14>[22360.921813] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740467907-460497930,preforktime:1740467907-460538639,startedtime:1740467907-461526764
+<14>[22360.922352] [pid=16823][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22360.968840] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22360.974369] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 16823) exit with code : 0
+<12>[22360.974407] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:16823 uid:1009 status:0.
+<14>[22360.974423] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 16823.
+<14>[22360.974627] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404404176 second later
+<4>[22365.925941] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22374.113015] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22382.304737] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22390.496832] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22398.692894] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22406.884774] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22415.072863] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[22422.573581] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22422.574631] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 19106 uid 1100)
+<14>[22422.574669] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740467969-113329876,preforktime:1740467969-113427418,startedtime:1740467969-114385210
+<14>[22422.575761] [pid=19106][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[22423.264792] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22425.341499] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22425.341577] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22425.341600] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22431.456682] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[22432.599014] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 19106) exit with code : 1
+<12>[22432.599055] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:19106 uid:1100 status:256.
+<14>[22432.599071] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 19106.
+<14>[22432.599293] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22432.600233] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 19478 uid 1100)
+<14>[22432.600262] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740467979-139063964,preforktime:1740467979-139114798,startedtime:1740467979-139994131
+<14>[22432.600799] [pid=19478][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[22440.157613] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22440.157794] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22440.157822] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22440.159192] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[22442.619093] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 19478) exit with code : 1
+<12>[22442.619133] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:19478 uid:1100 status:256.
+<14>[22442.619148] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 19478.
+<14>[22442.619383] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22442.620387] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 19833 uid 1100)
+<14>[22442.620419] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740467989-159152261,preforktime:1740467989-159212053,startedtime:1740467989-160140761
+<14>[22442.620991] [pid=19833][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[22446.305496] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22446.305573] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22446.305597] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22447.325498] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22447.325573] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22447.325595] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22448.352799] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<12>[22452.643686] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 19833) exit with code : 1
+<12>[22452.643721] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:19833 uid:1100 status:256.
+<14>[22452.643737] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 19833.
+<14>[22452.643940] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22452.644880] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 20209 uid 1100)
+<14>[22452.644916] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740467999-183713474,preforktime:1740467999-183760516,startedtime:1740467999-184634432
+<14>[22452.645410] [pid=20209][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[22456.544755] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[22462.669860] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 20209) exit with code : 1
+<12>[22462.669902] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:20209 uid:1100 status:256.
+<14>[22462.669918] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 20209.
+<14>[22462.670144] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404599296 second later
+<4>[22464.737005] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22467.293521] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22467.293600] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22467.293624] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22468.321493] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22468.321582] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22468.321607] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22472.928717] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22478.049486] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22478.049616] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22478.049641] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22481.120771] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22489.825548] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22489.825690] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22489.825715] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22489.827571] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22498.016697] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22499.549509] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22499.549594] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22499.549618] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22506.212900] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22514.909787] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22514.909869] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22514.909893] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22514.913308] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22523.104743] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22531.296960] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22539.997524] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22539.997610] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22539.997634] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22539.999536] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22548.192718] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22551.265490] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22551.265572] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22551.265597] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22556.387008] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22560.477511] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22560.477585] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22560.477608] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22561.021492] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22561.021565] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22561.021586] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22562.013526] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22562.013612] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22562.013637] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22564.576791] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22572.768850] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22581.469496] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22581.469573] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22581.469594] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22581.472540] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22589.664863] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[22590.281361] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[22590.282400] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 25255 uid 6666)
+<14>[22590.282436] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468136-821112790,preforktime:1740468136-821192415,startedtime:1740468136-822149081
+<14>[22590.282992] [pid=25255][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[22590.300473] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 25255) exit with code : 0
+<12>[22590.300515] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:25255 uid:6666 status:0.
+<14>[22590.300530] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 25255.
+<14>[22590.300787] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[22590.301889] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 25257 uid 6666)
+<14>[22590.301930] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468136-840555206,preforktime:1740468136-840605040,startedtime:1740468136-841636915
+<14>[22590.302485] [pid=25257][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[22590.319252] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 25257) exit with code : 0
+<12>[22590.319299] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:25257 uid:6666 status:0.
+<14>[22590.319315] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 25257.
+<14>[22590.320159] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[22590.322777] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 25262 uid 6666)
+<14>[22590.322820] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468136-859874373,preforktime:1740468136-860157248,startedtime:1740468136-862513623
+<14>[22590.323385] [pid=25262][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[22590.339238] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 25262) exit with code : 0
+<12>[22590.339275] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:25262 uid:6666 status:0.
+<14>[22590.339291] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 25262.
+<14>[22590.339517] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[22590.340597] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 25263 uid 6666)
+<14>[22590.340630] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468136-879290915,preforktime:1740468136-879328248,startedtime:1740468136-880350415
+<14>[22590.341205] [pid=25263][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[22590.355708] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 25263) exit with code : 0
+<12>[22590.355746] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:25263 uid:6666 status:0.
+<14>[22590.355762] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 25263.
+<14>[22590.355987] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404619040 second later
+<4>[22597.856927] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<14>[22600.985528] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22600.986601] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 25659 uid 1009)
+<14>[22600.986637] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468147-525277170,preforktime:1740468147-525374170,startedtime:1740468147-526350836
+<14>[22600.987213] [pid=25659][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22601.035505] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22601.045797] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 25659) exit with code : 0
+<12>[22601.045836] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:25659 uid:1009 status:0.
+<14>[22601.045852] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 25659.
+<14>[22601.046092] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22601.047064] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 25664 uid 1009)
+<14>[22601.047098] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468147-585864878,preforktime:1740468147-585921503,startedtime:1740468147-586813211
+<14>[22601.047670] [pid=25664][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22601.091309] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22601.097129] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 25664) exit with code : 0
+<12>[22601.097167] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:25664 uid:1009 status:0.
+<14>[22601.097184] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 25664.
+<14>[22601.097393] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22601.098381] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 25666 uid 1009)
+<14>[22601.098412] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468147-637167045,preforktime:1740468147-637216503,startedtime:1740468147-638135003
+<14>[22601.098898] [pid=25666][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22601.145144] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22601.152795] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 25666) exit with code : 0
+<12>[22601.152841] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:25666 uid:1009 status:0.
+<14>[22601.152859] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 25666.
+<14>[22601.153081] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22601.154165] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 25670 uid 1009)
+<14>[22601.154206] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468147-692853378,preforktime:1740468147-692905586,startedtime:1740468147-693911586
+<14>[22601.154780] [pid=25670][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22601.208069] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22601.213775] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 25670) exit with code : 0
+<12>[22601.213816] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:25670 uid:1009 status:0.
+<14>[22601.213831] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 25670.
+<14>[22601.214035] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404404176 second later
+<4>[22606.048735] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22613.725490] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22613.725564] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22613.725589] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22614.241605] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22622.941637] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22622.941722] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22622.941748] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22622.942589] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22631.136749] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22639.837526] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22639.837604] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22639.837629] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22639.838427] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22644.957552] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22644.957644] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22644.957668] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22648.032878] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22656.224857] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22664.416764] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22672.608747] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22674.173530] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22674.173762] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22674.173792] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22674.686289] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22674.686374] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22674.686399] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22680.801402] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22688.992873] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22697.184781] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<14>[22702.769668] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22702.770684] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 29392 uid 1100)
+<14>[22702.770721] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468249-309416343,preforktime:1740468249-309528510,startedtime:1740468249-310435135
+<14>[22702.771317] [pid=29392][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[22705.376743] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22706.941472] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22706.941545] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22706.941568] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<12>[22712.788544] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 29392) exit with code : 1
+<12>[22712.788586] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:29392 uid:1100 status:256.
+<14>[22712.788600] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 29392.
+<14>[22712.788837] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22712.789862] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 29761 uid 1100)
+<14>[22712.789893] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468259-328609015,preforktime:1740468259-328663015,startedtime:1740468259-329615973
+<14>[22712.790454] [pid=29761][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[22714.077518] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22714.077597] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22714.077621] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22714.080041] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22717.661516] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22717.665562] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22717.665596] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22718.177517] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22718.177602] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22718.177623] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22722.279731] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[22722.811674] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 29761) exit with code : 1
+<12>[22722.811710] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:29761 uid:1100 status:256.
+<14>[22722.811726] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 29761.
+<14>[22722.811931] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22722.812876] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 30135 uid 1100)
+<14>[22722.812897] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468269-351706019,preforktime:1740468269-351750353,startedtime:1740468269-352640394
+<14>[22722.813506] [pid=30135][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[22726.365561] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22726.365648] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22726.365675] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22730.464812] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[22732.839296] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 30135) exit with code : 1
+<12>[22732.839334] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:30135 uid:1100 status:256.
+<14>[22732.839350] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 30135.
+<14>[22732.839555] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22732.840564] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 30498 uid 1100)
+<14>[22732.840590] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468279-379329358,preforktime:1740468279-379380899,startedtime:1740468279-380326066
+<14>[22732.841179] [pid=30498][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[22738.663102] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22739.197526] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22739.197602] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22739.197625] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22739.713534] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22739.713621] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22739.713648] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<12>[22742.865729] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 30498) exit with code : 1
+<12>[22742.865769] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:30498 uid:1100 status:256.
+<14>[22742.865786] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 30498.
+<14>[22742.865994] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404599296 second later
+<4>[22746.848730] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22750.429505] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22750.429578] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22750.429600] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22755.040728] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22761.213506] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22761.213584] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22761.213609] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22763.232679] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22767.869519] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22767.869596] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22767.869620] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22771.427131] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22780.125502] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22780.125587] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22780.125613] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22780.127484] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22788.324889] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22788.861536] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22788.861616] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22788.861640] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22792.449500] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22792.449578] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22792.449602] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22792.957535] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22792.957628] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22792.957653] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22796.512759] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22804.708837] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22809.825498] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22809.825578] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22809.825604] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22812.899730] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22821.088783] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22829.789514] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22829.789611] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22829.789638] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22829.790981] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[22830.441583] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[22830.442507] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 2190 uid 6666)
+<14>[22830.442535] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468376-981327196,preforktime:1740468376-981419487,startedtime:1740468376-982266696
+<14>[22830.443129] [pid=2190][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[22830.459410] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 2190) exit with code : 0
+<12>[22830.459450] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:2190 uid:6666 status:0.
+<14>[22830.459464] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 2190.
+<14>[22830.459687] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[22830.460629] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 2191 uid 6666)
+<14>[22830.460655] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468376-999460279,preforktime:1740468376-999511237,startedtime:1740468377-391196
+<14>[22830.461201] [pid=2191][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[22830.476266] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 2191) exit with code : 0
+<12>[22830.476307] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:2191 uid:6666 status:0.
+<14>[22830.476323] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 2191.
+<14>[22830.476573] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[22830.477687] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 2198 uid 6666)
+<14>[22830.477724] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468377-16342112,preforktime:1740468377-16396612,startedtime:1740468377-17429404
+<14>[22830.478239] [pid=2198][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[22830.492443] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 2198) exit with code : 0
+<12>[22830.492479] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:2198 uid:6666 status:0.
+<14>[22830.492493] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 2198.
+<14>[22830.492695] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[22830.493822] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 2199 uid 6666)
+<14>[22830.493860] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468377-32467487,preforktime:1740468377-32523446,startedtime:1740468377-33572529
+<14>[22830.494401] [pid=2199][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[22830.512805] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 2199) exit with code : 0
+<12>[22830.512844] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:2199 uid:6666 status:0.
+<14>[22830.512858] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 2199.
+<14>[22830.513067] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404619040 second later
+<4>[22837.984995] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<14>[22841.221659] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22841.222654] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 2610 uid 1009)
+<14>[22841.222684] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468387-761365576,preforktime:1740468387-761528159,startedtime:1740468387-762412784
+<14>[22841.223230] [pid=2610][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22841.266546] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22841.271956] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 2610) exit with code : 0
+<12>[22841.271993] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:2610 uid:1009 status:0.
+<14>[22841.272009] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 2610.
+<14>[22841.272225] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22841.273166] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 2612 uid 1009)
+<14>[22841.273194] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468387-811999451,preforktime:1740468387-812054326,startedtime:1740468387-812924659
+<14>[22841.273796] [pid=2612][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22841.316164] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22841.324666] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 2612) exit with code : 0
+<12>[22841.324706] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:2612 uid:1009 status:0.
+<14>[22841.324722] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 2612.
+<14>[22841.324941] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22841.326014] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 2614 uid 1009)
+<14>[22841.326043] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468387-864712951,preforktime:1740468387-864772909,startedtime:1740468387-865769909
+<14>[22841.326548] [pid=2614][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22841.369424] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22841.375035] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 2614) exit with code : 0
+<12>[22841.375077] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:2614 uid:1009 status:0.
+<14>[22841.375095] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 2614.
+<14>[22841.375364] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[22841.376418] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 2619 uid 1009)
+<14>[22841.376459] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468387-915130909,preforktime:1740468387-915186201,startedtime:1740468387-916163159
+<14>[22841.377011] [pid=2619][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[22841.426924] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[22841.434238] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 2619) exit with code : 0
+<12>[22841.434274] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:2619 uid:1009 status:0.
+<14>[22841.434293] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 2619.
+<14>[22841.434516] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404404176 second later
+<4>[22846.177051] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22854.368717] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22861.537715] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22861.537815] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22861.537839] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22862.045504] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22862.045578] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22862.045602] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22863.069496] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22863.069569] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22863.069592] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22863.071956] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22871.267048] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22879.456848] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22885.633539] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22885.633657] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22885.633681] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22887.649861] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22895.843321] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22904.033323] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22906.593489] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22906.593572] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22906.593593] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22912.224785] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22920.420236] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22924.033497] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22924.033736] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22924.033767] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22927.613518] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22927.613592] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22927.613616] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22929.117487] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22929.117569] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22929.117590] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22929.120992] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22937.312905] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[22945.505006] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22948.577511] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22948.577591] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22948.577614] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22953.696773] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22955.261508] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22955.261586] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22955.261616] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[22955.773548] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22955.773645] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22955.773669] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22961.888817] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[22966.529478] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[22966.529551] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[22966.529573] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[22970.080753] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[22978.276754] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<14>[22982.953579] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22982.954620] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 7782 uid 1100)
+<14>[22982.954651] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468529-493320727,preforktime:1740468529-493433644,startedtime:1740468529-494369352
+<14>[22982.955237] [pid=7782][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[22986.465125] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[22990.045516] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[22990.045594] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[22990.045619] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<12>[22992.983136] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 7782) exit with code : 1
+<12>[22992.983176] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:7782 uid:1100 status:256.
+<14>[22992.983191] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 7782.
+<14>[22992.983407] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[22992.984353] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 8145 uid 1100)
+<14>[22992.984390] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468539-523179732,preforktime:1740468539-523222690,startedtime:1740468539-524101357
+<14>[22992.984859] [pid=8145][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[22994.656775] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23002.851166] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<12>[23003.003773] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 8145) exit with code : 1
+<12>[23003.003809] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:8145 uid:1100 status:256.
+<14>[23003.003824] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 8145.
+<14>[23003.004066] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23003.005055] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 8504 uid 1100)
+<14>[23003.005086] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468549-543836778,preforktime:1740468549-543890070,startedtime:1740468549-544814695
+<14>[23003.005654] [pid=8504][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[23011.037498] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23011.037581] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23011.037609] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23011.043874] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<12>[23013.022853] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 8504) exit with code : 1
+<12>[23013.022888] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:8504 uid:1100 status:256.
+<14>[23013.022905] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 8504.
+<14>[23013.023130] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23013.024087] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 8874 uid 1100)
+<14>[23013.024123] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468559-562903825,preforktime:1740468559-562951491,startedtime:1740468559-563837575
+<14>[23013.024666] [pid=8874][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[23019.745476] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23019.745551] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23019.745574] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23019.747474] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<12>[23023.043118] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 8874) exit with code : 1
+<12>[23023.043154] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:8874 uid:1100 status:256.
+<14>[23023.043170] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 8874.
+<14>[23023.043363] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404599296 second later
+<4>[23027.936872] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23036.637504] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23036.637578] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23036.637603] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23036.638936] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23038.685488] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23038.685638] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23038.685664] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23044.832789] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23052.513494] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23052.513574] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23052.513597] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23053.021498] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23053.021571] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23053.021595] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23053.027772] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23061.725561] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23061.725653] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23061.725679] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23061.731762] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23069.921056] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<14>[23070.558881] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23070.559959] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 10915 uid 6666)
+<14>[23070.559997] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468617-98630602,preforktime:1740468617-98729560,startedtime:1740468617-99717852
+<14>[23070.560583] [pid=10915][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23070.579060] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 10915) exit with code : 0
+<12>[23070.579104] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:10915 uid:6666 status:0.
+<14>[23070.579121] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 10915.
+<14>[23070.579355] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23070.580368] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 10919 uid 6666)
+<14>[23070.580412] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468617-119128144,preforktime:1740468617-119177352,startedtime:1740468617-120120102
+<14>[23070.580984] [pid=10919][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23070.593991] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 10919) exit with code : 0
+<12>[23070.594031] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:10919 uid:6666 status:0.
+<14>[23070.594048] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 10919.
+<14>[23070.594277] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23070.595242] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 10920 uid 6666)
+<14>[23070.595276] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468617-134052435,preforktime:1740468617-134109560,startedtime:1740468617-134995644
+<14>[23070.595831] [pid=10920][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23070.610104] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 10920) exit with code : 0
+<12>[23070.610148] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:10920 uid:6666 status:0.
+<14>[23070.610161] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 10920.
+<14>[23070.610355] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23070.611354] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 10921 uid 6666)
+<14>[23070.611406] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468617-150130144,preforktime:1740468617-150170060,startedtime:1740468617-151105102
+<14>[23070.611926] [pid=10921][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23070.627085] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 10921) exit with code : 0
+<12>[23070.627134] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:10921 uid:6666 status:0.
+<14>[23070.627150] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 10921.
+<14>[23070.627353] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404619040 second later
+<1>[23074.013610] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23074.013704] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23074.013727] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23074.525540] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23074.525627] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23074.525648] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23078.112826] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<14>[23081.444525] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23081.445593] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 11310 uid 1009)
+<14>[23081.445623] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468627-984266857,preforktime:1740468627-984382024,startedtime:1740468627-985345649
+<14>[23081.446196] [pid=11310][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23081.489321] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23081.496987] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 11310) exit with code : 0
+<12>[23081.497025] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:11310 uid:1009 status:0.
+<14>[23081.497041] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 11310.
+<14>[23081.497262] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23081.498298] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 11312 uid 1009)
+<14>[23081.498335] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468628-37037732,preforktime:1740468628-37089649,startedtime:1740468628-38045066
+<14>[23081.498899] [pid=11312][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23081.547619] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23081.557756] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 11312) exit with code : 0
+<12>[23081.557795] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:11312 uid:1009 status:0.
+<14>[23081.557811] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 11312.
+<14>[23081.558020] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23081.558998] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 11316 uid 1009)
+<14>[23081.559027] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468628-97794274,preforktime:1740468628-97853982,startedtime:1740468628-98756191
+<14>[23081.559593] [pid=11316][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23081.603707] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23081.608775] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 11316) exit with code : 0
+<12>[23081.608817] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:11316 uid:1009 status:0.
+<14>[23081.608834] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 11316.
+<14>[23081.609055] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23081.610097] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 11318 uid 1009)
+<14>[23081.610126] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468628-148830274,preforktime:1740468628-148886191,startedtime:1740468628-149854857
+<14>[23081.610688] [pid=11318][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23081.654723] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23081.659928] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 11318) exit with code : 0
+<12>[23081.659966] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:11318 uid:1009 status:0.
+<14>[23081.659982] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 11318.
+<14>[23081.660173] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404404176 second later
+<4>[23086.304832] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23094.496721] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23103.197474] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23103.197550] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23103.197573] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23103.199943] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23111.901554] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23111.901683] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23111.901708] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23111.905247] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23120.100753] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23126.237496] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23126.237573] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23126.237599] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23128.797556] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23128.797692] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23128.797720] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23128.801342] charger_mod = 1, capacity = 100, voltage = 4333 raw_soc = 100
+<1>[23137.501496] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23137.501577] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23137.501609] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23137.502449] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23145.696778] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23153.888825] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23157.473570] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23157.473655] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23157.473679] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23162.080742] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23168.225493] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23168.225570] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23168.225592] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23168.765514] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23168.765637] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23168.765672] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23170.272727] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23178.464787] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23179.521490] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23179.521565] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23179.521590] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23186.656771] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23194.848778] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23203.553502] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23203.553579] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23203.553601] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23203.557009] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23210.721502] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23210.721580] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23210.721603] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23211.744742] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23213.277568] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23213.277645] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23213.277667] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23219.936891] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23221.469508] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23221.469588] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23221.469613] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23221.981504] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23221.981582] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23221.981603] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23228.129057] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23236.320958] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23244.513569] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23252.711167] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23253.245728] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23253.245804] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23253.245825] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23260.896895] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[23263.141998] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23263.143052] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 18041 uid 1100)
+<14>[23263.143089] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468809-681746569,preforktime:1740468809-681846860,startedtime:1740468809-682811277
+<14>[23263.143658] [pid=18041][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[23263.997753] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23263.997977] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23263.998004] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23264.509522] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23264.513513] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23264.513549] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 2, ret -110 mode 0 err 0x0
+<4>[23269.092718] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23273.172583] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 18041) exit with code : 1
+<12>[23273.172622] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:18041 uid:1100 status:256.
+<14>[23273.172639] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 18041.
+<14>[23273.172854] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23273.173965] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 18401 uid 1100)
+<14>[23273.173998] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468819-712631074,preforktime:1740468819-712683115,startedtime:1740468819-713721324
+<14>[23273.174495] [pid=18401][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[23275.261510] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23275.261612] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23275.261635] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23277.789575] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23277.789654] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23277.789681] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23277.790991] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<12>[23283.197707] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 18401) exit with code : 1
+<12>[23283.197746] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:18401 uid:1100 status:256.
+<14>[23283.197761] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 18401.
+<14>[23283.197960] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23283.198885] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 18771 uid 1100)
+<14>[23283.198923] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468829-737736370,preforktime:1740468829-737779287,startedtime:1740468829-738636953
+<14>[23283.199443] [pid=18771][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[23285.984859] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23293.225965] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 18771) exit with code : 1
+<12>[23293.226001] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:18771 uid:1100 status:256.
+<14>[23293.226081] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 18771.
+<14>[23293.226306] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23293.227259] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 19137 uid 1100)
+<14>[23293.227293] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468839-766080291,preforktime:1740468839-766124625,startedtime:1740468839-767013125
+<14>[23293.227805] [pid=19137][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[23294.176807] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23296.221519] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23296.221595] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23296.221618] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23302.368901] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23303.249155] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 19137) exit with code : 1
+<12>[23303.249191] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:19137 uid:1100 status:256.
+<14>[23303.249205] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 19137.
+<14>[23303.249408] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404599296 second later
+<4>[23310.560969] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<14>[23310.634104] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23310.635469] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 19760 uid 6666)
+<14>[23310.635515] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468857-173851383,preforktime:1740468857-173973508,startedtime:1740468857-175209341
+<14>[23310.636064] [pid=19760][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23310.653913] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 19760) exit with code : 0
+<12>[23310.653956] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:19760 uid:6666 status:0.
+<14>[23310.653972] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 19760.
+<14>[23310.654208] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23310.655222] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 19764 uid 6666)
+<14>[23310.655250] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468857-193984425,preforktime:1740468857-194040758,startedtime:1740468857-194983341
+<14>[23310.655779] [pid=19764][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23310.667533] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 19764) exit with code : 0
+<12>[23310.667617] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:19764 uid:6666 status:0.
+<14>[23310.667634] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 19764.
+<14>[23310.667936] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23310.669749] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 19765 uid 6666)
+<14>[23310.669812] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468857-207711258,preforktime:1740468857-207796008,startedtime:1740468857-209469341
+<14>[23310.670275] [pid=19765][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23310.684241] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 19765) exit with code : 0
+<12>[23310.684277] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:19765 uid:6666 status:0.
+<14>[23310.684291] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 19765.
+<14>[23310.684661] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23310.686434] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 19766 uid 6666)
+<14>[23310.686461] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468857-224404841,preforktime:1740468857-224482508,startedtime:1740468857-226152008
+<14>[23310.686969] [pid=19766][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23310.700428] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 19766) exit with code : 0
+<12>[23310.700464] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:19766 uid:6666 status:0.
+<14>[23310.700516] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 19766.
+<14>[23310.700727] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404619040 second later
+<4>[23318.753465] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[23321.670945] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23321.671937] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 20161 uid 1009)
+<14>[23321.671967] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468868-210695638,preforktime:1740468868-210795763,startedtime:1740468868-211698138
+<14>[23321.672495] [pid=20161][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23321.714750] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23321.721648] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 20161) exit with code : 0
+<12>[23321.721695] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:20161 uid:1009 status:0.
+<14>[23321.721713] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 20161.
+<14>[23321.722074] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23321.724905] [pid=20168][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<14>[23321.725185] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 20168 uid 1009)
+<14>[23321.725214] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468868-261847972,preforktime:1740468868-261949930,startedtime:1740468868-264946722
+<12>[23321.771160] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23321.776412] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 20168) exit with code : 0
+<12>[23321.776449] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:20168 uid:1009 status:0.
+<14>[23321.776464] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 20168.
+<14>[23321.776688] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23321.777685] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 20170 uid 1009)
+<14>[23321.777709] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468868-316464763,preforktime:1740468868-316508888,startedtime:1740468868-317452555
+<14>[23321.778270] [pid=20170][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23321.821084] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23321.827987] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 20170) exit with code : 0
+<12>[23321.828025] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:20170 uid:1009 status:0.
+<14>[23321.828041] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 20170.
+<14>[23321.828243] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23321.829215] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 20172 uid 1009)
+<14>[23321.829244] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740468868-368020638,preforktime:1740468868-368060763,startedtime:1740468868-368978763
+<14>[23321.829816] [pid=20172][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23321.871666] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23321.876388] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 20172) exit with code : 0
+<12>[23321.876427] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:20172 uid:1009 status:0.
+<14>[23321.876442] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 20172.
+<14>[23321.876668] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404404176 second later
+<4>[23326.951682] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23327.485507] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23327.485582] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23327.485607] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23335.136814] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23343.332796] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23351.520755] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23357.153502] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23357.153591] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23357.153615] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23359.712779] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23368.413480] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23368.413564] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23368.413591] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23368.417369] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23376.612799] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23384.800882] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23389.405509] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23389.405583] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23389.405604] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23392.992745] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23401.184988] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23409.889556] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23409.889645] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23409.889670] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23409.895459] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23410.429501] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23410.429582] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23410.429612] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23418.081097] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23426.781536] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23426.781630] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23426.781657] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23426.782469] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23431.389493] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23431.389566] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23431.389590] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23434.976671] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23443.169071] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23451.365809] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23452.385511] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23452.385600] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23452.385621] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23459.552809] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23467.748748] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23475.936666] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23484.128702] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23492.320733] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23500.512775] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23504.097469] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23504.097546] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23504.097568] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23508.708701] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23516.901776] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23525.089075] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23533.281218] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23535.357528] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23535.357606] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23535.357628] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23541.472908] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23541.981545] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23541.981621] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23541.981643] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<14>[23543.253630] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23543.254607] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 28206 uid 1100)
+<14>[23543.254640] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469089-793372536,preforktime:1740469089-793487536,startedtime:1740469089-794366619
+<14>[23543.255196] [pid=28206][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[23546.113513] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23546.113606] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23546.113627] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23546.621484] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23546.621562] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23546.621583] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23547.137504] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23547.137637] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23547.137661] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23550.173515] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23550.173605] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23550.173628] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23550.175501] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[23550.701576] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23550.702624] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 28460 uid 6666)
+<14>[23550.702660] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469097-241325748,preforktime:1740469097-241426789,startedtime:1740469097-242381498
+<14>[23550.703225] [pid=28460][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23550.720310] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 28460) exit with code : 0
+<12>[23550.720348] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:28460 uid:6666 status:0.
+<14>[23550.720362] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 28460.
+<14>[23550.720572] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23550.721590] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 28461 uid 6666)
+<14>[23550.721620] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469097-260350123,preforktime:1740469097-260386706,startedtime:1740469097-261347331
+<14>[23550.722110] [pid=28461][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23550.740203] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 28461) exit with code : 0
+<12>[23550.740245] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:28461 uid:6666 status:0.
+<14>[23550.740259] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 28461.
+<14>[23550.740489] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23550.741578] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 28465 uid 6666)
+<14>[23550.741604] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469097-280265164,preforktime:1740469097-280309456,startedtime:1740469097-281336539
+<14>[23550.742101] [pid=28465][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23550.756971] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 28465) exit with code : 0
+<12>[23550.757012] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:28465 uid:6666 status:0.
+<14>[23550.757027] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 28465.
+<14>[23550.757238] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23550.758421] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 28468 uid 6666)
+<14>[23550.758461] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469097-297014581,preforktime:1740469097-297062623,startedtime:1740469097-298165539
+<14>[23550.760530] [pid=28468][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23550.775477] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 28468) exit with code : 0
+<12>[23550.775516] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:28468 uid:6666 status:0.
+<14>[23550.775531] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 28468.
+<14>[23550.775742] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404619040 second later
+<1>[23552.765533] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23552.765609] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23552.765630] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<12>[23553.277393] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 28206) exit with code : 1
+<12>[23553.277507] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:28206 uid:1100 status:256.
+<14>[23553.277526] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 28206.
+<14>[23553.277742] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23553.278752] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 28570 uid 1100)
+<14>[23553.278787] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469099-817517374,preforktime:1740469099-817579165,startedtime:1740469099-818505207
+<14>[23553.279324] [pid=28570][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[23558.368923] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[23561.886082] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23561.887054] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 28850 uid 1009)
+<14>[23561.887091] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469108-425836795,preforktime:1740469108-425921961,startedtime:1740469108-426812295
+<14>[23561.887627] [pid=28850][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23561.933774] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23561.940506] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 28850) exit with code : 0
+<12>[23561.940545] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:28850 uid:1009 status:0.
+<14>[23561.940562] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 28850.
+<14>[23561.940807] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23561.941848] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 28855 uid 1009)
+<14>[23561.941882] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469108-480582711,preforktime:1740469108-480641545,startedtime:1740469108-481605003
+<14>[23561.943234] [pid=28855][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23561.992333] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23561.998754] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 28855) exit with code : 0
+<12>[23561.998943] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:28855 uid:1009 status:0.
+<14>[23561.998969] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 28855.
+<14>[23561.999358] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23562.001404] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 28860 uid 1009)
+<14>[23562.001485] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469108-539128003,preforktime:1740469108-539185003,startedtime:1740469108-541157878
+<14>[23562.001897] [pid=28860][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23562.050509] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23562.059621] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 28860) exit with code : 0
+<12>[23562.059664] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:28860 uid:1009 status:0.
+<14>[23562.059681] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 28860.
+<14>[23562.059930] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23562.061011] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 28865 uid 1009)
+<14>[23562.061051] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469108-599681420,preforktime:1740469108-599781795,startedtime:1740469108-600757628
+<14>[23562.061654] [pid=28865][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23562.107184] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23562.113513] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 28865) exit with code : 0
+<12>[23562.113554] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:28865 uid:1009 status:0.
+<14>[23562.113571] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 28865.
+<14>[23562.113805] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404404176 second later
+<12>[23563.302016] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 28570) exit with code : 1
+<12>[23563.302114] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:28570 uid:1100 status:256.
+<14>[23563.302129] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 28570.
+<14>[23563.302337] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23563.303659] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 28924 uid 1100)
+<14>[23563.303696] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469109-842113295,preforktime:1740469109-842152920,startedtime:1740469109-843409629
+<14>[23563.304224] [pid=28924][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[23566.560783] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<12>[23573.329120] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 28924) exit with code : 1
+<12>[23573.329194] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:28924 uid:1100 status:256.
+<14>[23573.329237] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 28924.
+<14>[23573.329874] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23573.331444] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 29287 uid 1100)
+<14>[23573.331509] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469119-869606675,preforktime:1740469119-869734967,startedtime:1740469119-871192383
+<14>[23573.331949] [pid=29287][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[23573.725579] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23573.725658] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23573.725681] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23574.757215] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23582.944973] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<12>[23583.356481] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 29287) exit with code : 1
+<12>[23583.356519] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:29287 uid:1100 status:256.
+<14>[23583.356535] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 29287.
+<14>[23583.356763] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404599296 second later
+<1>[23584.509501] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23584.509577] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23584.509598] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23591.136864] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23595.265483] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23595.265561] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23595.265583] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23599.328942] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23607.520883] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23615.712785] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23623.904728] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23632.096738] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23636.701501] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23636.701594] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23636.701618] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23637.217496] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23637.217578] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23637.217599] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23640.288793] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23647.969492] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23647.969568] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23647.969599] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23648.481548] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23648.481622] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23648.481645] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23648.989519] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23648.989594] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23648.989645] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23648.990988] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23657.184944] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23665.376817] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23673.572667] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23680.737506] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23680.737595] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23680.737621] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23681.245490] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23681.245606] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23681.245633] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23681.760832] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23689.952828] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23698.144816] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23706.340817] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23714.528842] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23722.724049] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23730.912682] charger_mod = 1, capacity = 100, voltage = 4336 raw_soc = 100
+<6>[23736.525873] sharefs: mounted on top of /storage/media/100/local/files/Docs type hmdfs
+<4>[23739.104852] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23747.300770] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23753.473512] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23753.473589] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23753.473613] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23755.488760] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23762.308515] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process Unknown(pid 4433) exit with code : 0
+<12>[23762.308555] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning Unknown, SIGCHLD received, pid:4433 uid:20010049 status:0.
+<12>[23762.308721] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process Unknown(pid 4440) exit with code : 0
+<12>[23762.308741] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning Unknown, SIGCHLD received, pid:4440 uid:20010049 status:0.
+<4>[23763.683372] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23764.221490] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23764.221560] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23764.221587] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<12>[23765.304692] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process Unknown(pid 4570) exit with code : 0
+<12>[23765.304730] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning Unknown, SIGCHLD received, pid:4570 uid:20010049 status:0.
+<12>[23765.305675] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process Unknown(pid 4581) exit with code : 0
+<12>[23765.305709] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning Unknown, SIGCHLD received, pid:4581 uid:20010049 status:0.
+<6>[23766.381849] sysrq: Show Blocked State
+<6>[23766.399056] task:vq0             state:D stack:0     pid:149   ppid:2      flags:0x00000000
+<6>[23766.399095] Call Trace:
+<6>[23766.399102] [<ffffffff80ffd2ec>] __schedule+0x308/0xa16
+<6>[23766.399126] [<ffffffff80ffda46>] schedule+0x4c/0xd6
+<6>[23766.399135] [<ffffffff81002c7a>] schedule_timeout+0x6c/0x156
+<6>[23766.399146] [<ffffffff80ffe336>] wait_for_completion_timeout+0x56/0x100
+<6>[23766.399157] [<ffffffff80c2443e>] __process_theread+0x64/0xbe
+<6>[23766.399169] [<ffffffff8003e8ba>] kthread+0xca/0xe6
+<6>[23766.399180] [<ffffffff81004132>] ret_from_fork+0xe/0x1c
+<6>[23766.399189] task:vq1             state:D stack:0     pid:150   ppid:2      flags:0x00000000
+<6>[23766.399201] Call Trace:
+<6>[23766.399205] [<ffffffff80ffd2ec>] __schedule+0x308/0xa16
+<6>[23766.399213] [<ffffffff80ffda46>] schedule+0x4c/0xd6
+<6>[23766.399221] [<ffffffff81002c7a>] schedule_timeout+0x6c/0x156
+<6>[23766.399230] [<ffffffff80ffe336>] wait_for_completion_timeout+0x56/0x100
+<6>[23766.399239] [<ffffffff80c2443e>] __process_theread+0x64/0xbe
+<6>[23766.399246] [<ffffffff8003e8ba>] kthread+0xca/0xe6
+<6>[23766.399252] [<ffffffff81004132>] ret_from_fork+0xe/0x1c
+<6>[23766.617304] binder: 5196:5124 cannot find target node
+<6>[23766.617343] binder: 5124:5196 transaction async to 0:0 failed 2180455/29189/-22, size 112-0 line 3100
+<6>[23767.399959] sysrq: Show backtrace of all active CPUs
+<6>[23767.405272] sysrq: CPU5:
+<6>[23767.405289] Call Trace:
+<6>[23767.405297] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23767.405318] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23767.405331] [<ffffffff8075044a>] sysrq_handle_showallcpus+0xb6/0xb8
+<6>[23767.405363] [<ffffffff807507be>] __handle_sysrq+0xee/0x19c
+<6>[23767.405373] [<ffffffff80750e44>] write_sysrq_trigger+0x58/0x80
+<6>[23767.405382] [<ffffffff802a33c2>] proc_reg_write+0x40/0x8e
+<6>[23767.405393] [<ffffffff802263a4>] vfs_write+0xa8/0x342
+<6>[23767.405405] [<ffffffff8022677a>] ksys_write+0x54/0xcc
+<6>[23767.405413] [<ffffffff80226806>] __riscv_sys_write+0x14/0x1c
+<6>[23767.405420] [<ffffffff80ffaba8>] do_trap_ecall_u+0xba/0x12e
+<6>[23767.405432] [<ffffffff8100401e>] ret_from_exception+0x0/0x6e
+<6>[23767.406258] sysrq: CPU0:
+<6>[23767.406264] sysrq: CPU7: backtrace skipped as idling
+<6>[23767.406263] sysrq: CPU4: backtrace skipped as idling
+<6>[23767.406288] Call Trace:
+<6>[23767.406297] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23767.406319] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23767.406333] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23767.406347] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23767.406359] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23767.406369] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23767.406378] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23767.406392] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.406401] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23767.406411] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23767.406419] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.406428] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23767.406442] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23767.406453] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40
+<6>[23767.406463] sysrq: CPU1:
+<6>[23767.406472] Call Trace:
+<6>[23767.406476] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23767.406489] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23767.406498] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23767.406507] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23767.406517] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23767.406526] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23767.406536] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23767.406547] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.406555] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23767.406564] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23767.406572] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.406579] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23767.406588] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23767.406596] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40
+<6>[23767.406605] sysrq: CPU2:
+<6>[23767.406614] Call Trace:
+<6>[23767.406619] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23767.406631] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23767.406639] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23767.406648] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23767.406657] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23767.406665] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23767.406673] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23767.406683] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.406691] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23767.406699] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23767.406706] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.406714] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23767.406724] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23767.406731] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40
+<6>[23767.406740] sysrq: CPU6:
+<6>[23767.406752] Call Trace:
+<6>[23767.406757] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23767.406775] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23767.406786] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23767.406796] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23767.406807] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23767.406816] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23767.406825] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23767.406837] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.406846] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23767.406856] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23767.406863] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.406871] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23767.406883] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23767.406893] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40
+<6>[23767.406904] sysrq: CPU3:
+<6>[23767.406915] Call Trace:
+<6>[23767.406920] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23767.406937] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23767.406947] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23767.406957] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23767.406968] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23767.406977] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23767.406988] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23767.406999] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.407007] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23767.407017] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23767.407026] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23767.407035] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23767.407046] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23767.407056] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40
+<4>[23771.872955] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23780.064798] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23788.256737] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<14>[23790.797583] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23790.798700] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 5581 uid 6666)
+<14>[23790.798737] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469337-337337654,preforktime:1740469337-337419779,startedtime:1740469337-338456279
+<14>[23790.799273] [pid=5581][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23790.818701] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 5581) exit with code : 0
+<12>[23790.818738] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:5581 uid:6666 status:0.
+<14>[23790.818753] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 5581.
+<14>[23790.819263] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23790.820852] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 5582 uid 6666)
+<14>[23790.820890] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469337-359039070,preforktime:1740469337-359091112,startedtime:1740469337-360298779
+<14>[23790.821143] [pid=5582][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23790.834136] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 5582) exit with code : 0
+<12>[23790.834175] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:5582 uid:6666 status:0.
+<14>[23790.834250] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 5582.
+<14>[23790.834500] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23790.836052] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 5583 uid 6666)
+<14>[23790.836119] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469337-374278237,preforktime:1740469337-374321070,startedtime:1740469337-375812154
+<14>[23790.836585] [pid=5583][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23790.850679] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 5583) exit with code : 0
+<12>[23790.850766] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:5583 uid:6666 status:0.
+<14>[23790.850782] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 5583.
+<14>[23790.851157] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:write_updater
+<14>[23790.852624] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info write_updater(pid 5584 uid 6666)
+<14>[23790.852661] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469337-390932070,preforktime:1740469337-391050445,startedtime:1740469337-392381654
+<14>[23790.853211] [pid=5584][Init][INFO][init_service.c:118]ServiceExec write_updater
+<12>[23790.867431] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process write_updater(pid 5584) exit with code : 0
+<12>[23790.867470] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning write_updater, SIGCHLD received, pid:5584 uid:6666 status:0.
+<14>[23790.867485] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info write_updater pid 5584.
+<14>[23790.868322] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404619040 second later
+<4>[23796.448769] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[23802.121781] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23802.122813] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 5993 uid 1009)
+<14>[23802.122852] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469348-661531117,preforktime:1740469348-661643951,startedtime:1740469348-662565201
+<14>[23802.123394] [pid=5993][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23802.169573] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23802.174926] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 5993) exit with code : 0
+<12>[23802.174958] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:5993 uid:1009 status:0.
+<14>[23802.174973] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 5993.
+<14>[23802.175182] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23802.176150] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 5997 uid 1009)
+<14>[23802.176176] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469348-714961409,preforktime:1740469348-715015659,startedtime:1740469348-715916409
+<14>[23802.176682] [pid=5997][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23802.216654] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23802.222912] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 5997) exit with code : 0
+<12>[23802.222952] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:5997 uid:1009 status:0.
+<14>[23802.222967] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 5997.
+<14>[23802.223197] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23802.224220] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 5999 uid 1009)
+<14>[23802.224244] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469348-762974868,preforktime:1740469348-763027659,startedtime:1740469348-763987326
+<14>[23802.224791] [pid=5999][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23802.264670] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23802.270269] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 5999) exit with code : 0
+<12>[23802.270308] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:5999 uid:1009 status:0.
+<14>[23802.270323] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 5999.
+<14>[23802.270546] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:cloudfiledaemon
+<14>[23802.271541] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info cloudfiledaemon(pid 6001 uid 1009)
+<14>[23802.271571] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469348-810323451,preforktime:1740469348-810377743,startedtime:1740469348-811304618
+<14>[23802.272075] [pid=6001][Init][INFO][init_service.c:118]ServiceExec cloudfiledaemon
+<12>[23802.314861] SAFWK: operator() Set process name to cloudfiledaemon
+<12>[23802.322298] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process cloudfiledaemon(pid 6001) exit with code : 0
+<12>[23802.322337] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning cloudfiledaemon, SIGCHLD received, pid:6001 uid:1009 status:0.
+<14>[23802.322351] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info cloudfiledaemon pid 6001.
+<14>[23802.322567] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404404176 second later
+<1>[23802.589528] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23802.589663] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23802.589687] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23804.640788] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23812.832837] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23815.933532] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23815.933612] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23815.933636] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23821.533518] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23821.533594] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23821.533618] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23821.537061] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<14>[23823.377550] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23823.378918] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 6763 uid 1100)
+<14>[23823.378957] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469369-917302794,preforktime:1740469369-917389128,startedtime:1740469369-918677628
+<14>[23823.379542] [pid=6763][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[23829.732314] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23833.407664] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 6763) exit with code : 1
+<12>[23833.407700] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:6763 uid:1100 status:256.
+<14>[23833.407715] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 6763.
+<14>[23833.407937] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23833.408924] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 7124 uid 1100)
+<14>[23833.408960] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469379-947716007,preforktime:1740469379-947752507,startedtime:1740469379-948680757
+<14>[23833.409516] [pid=7124][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<1>[23836.897490] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23836.897575] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23836.897597] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23837.920789] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23843.431389] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 7124) exit with code : 1
+<12>[23843.431425] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:7124 uid:1100 status:256.
+<14>[23843.431440] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 7124.
+<14>[23843.431645] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23843.432578] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 7470 uid 1100)
+<14>[23843.432615] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469389-971421554,preforktime:1740469389-971479220,startedtime:1740469389-972336304
+<14>[23843.433146] [pid=7470][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[23846.113409] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23853.453531] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 7470) exit with code : 1
+<12>[23853.453574] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:7470 uid:1100 status:256.
+<14>[23853.453591] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 7470.
+<14>[23853.453848] [pid=1][Init][INFO][init_common_service.c:630]ServiceStart starting:watchdog_service
+<14>[23853.454894] [pid=1][Init][INFO][init_common_service.c:663]ServiceStart started info watchdog_service(pid 7832 uid 1100)
+<14>[23853.454932] [pid=1][Init][INFO][init_common_service.c:666]starttime:1740469399-993624684,preforktime:1740469399-993686350,startedtime:1740469399-994653059
+<14>[23853.455487] [pid=7832][Init][INFO][init_service.c:118]ServiceExec watchdog_service
+<4>[23854.308051] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23857.887910] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23857.888194] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23857.888223] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23862.496779] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23863.478936] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process watchdog_service(pid 7832) exit with code : 1
+<12>[23863.478980] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning watchdog_service, SIGCHLD received, pid:7832 uid:1100 status:256.
+<14>[23863.478998] [pid=1][Init][INFO][init_common_service.c:785]ServiceReap info watchdog_service pid 7832.
+<14>[23863.479234] [pid=1][Init][INFO][init_common_service.c:841]ServiceReap start failed! will reStart -1404599296 second later
+<1>[23868.669504] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23868.669583] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23868.669607] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23870.690647] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23874.813496] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23874.813581] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23874.813604] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23878.887250] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23887.072827] charger_mod = 1, capacity = 100, voltage = 4336 raw_soc = 100
+<4>[23895.272398] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23903.457185] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23911.648838] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<4>[23919.843141] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23928.541538] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23928.541619] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23928.541643] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23928.544596] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23930.593505] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23930.593583] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23930.593607] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23936.736721] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23941.341512] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23941.341614] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23941.341643] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23941.853496] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23941.853589] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23941.853614] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23944.929111] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<1>[23952.605560] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23952.605641] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23952.605663] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<1>[23953.629481] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23953.629562] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23953.629587] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23953.633019] charger_mod = 1, capacity = 100, voltage = 4334 raw_soc = 100
+<4>[23961.829877] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<6>[23965.412127] sharefs: mounted on top of /storage/media/100/local/files/Docs type hmdfs
+<1>[23967.454031] i2c-spacemit-k1x d4018800.i2c: msg completion timeout
+<1>[23967.457498] i2c-spacemit-k1x d4018800.i2c: bus reset, send clk: 0
+<1>[23967.457539] i2c-spacemit-k1x d4018800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23970.016801] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<1>[23973.601498] i2c-spacemit-k1x d401d800.i2c: msg completion timeout
+<1>[23973.601573] i2c-spacemit-k1x d401d800.i2c: bus reset, send clk: 0
+<1>[23973.601595] i2c-spacemit-k1x d401d800.i2c: i2c transfer retry 1, ret -110 mode 0 err 0x0
+<4>[23978.208818] charger_mod = 1, capacity = 100, voltage = 4335 raw_soc = 100
+<12>[23979.240173] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process Unknown(pid 12399) exit with code : 0
+<12>[23979.240216] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning Unknown, SIGCHLD received, pid:12399 uid:20010049 status:0.
+<12>[23979.240372] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process Unknown(pid 12404) exit with code : 0
+<12>[23979.240392] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning Unknown, SIGCHLD received, pid:12404 uid:20010049 status:0.
+<12>[23982.214747] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process Unknown(pid 12507) exit with code : 0
+<12>[23982.214788] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning Unknown, SIGCHLD received, pid:12507 uid:20010049 status:0.
+<12>[23982.214909] [pid=1][Init][WARNING][init_signal_handler.c:44]Child process Unknown(pid 12522) exit with code : 0
+<12>[23982.214926] [pid=1][Init][WARNING][init_signal_handler.c:52]Service warning Unknown, SIGCHLD received, pid:12522 uid:20010049 status:0.
+<6>[23983.380730] sysrq: Show Blocked State
+<6>[23983.396844] task:vq0             state:D stack:0     pid:149   ppid:2      flags:0x00000000
+<6>[23983.396875] Call Trace:
+<6>[23983.396881] [<ffffffff80ffd2ec>] __schedule+0x308/0xa16
+<6>[23983.396907] [<ffffffff80ffda46>] schedule+0x4c/0xd6
+<6>[23983.396916] [<ffffffff81002c7a>] schedule_timeout+0x6c/0x156
+<6>[23983.396927] [<ffffffff80ffe336>] wait_for_completion_timeout+0x56/0x100
+<6>[23983.396937] [<ffffffff80c2443e>] __process_theread+0x64/0xbe
+<6>[23983.396949] [<ffffffff8003e8ba>] kthread+0xca/0xe6
+<6>[23983.396960] [<ffffffff81004132>] ret_from_fork+0xe/0x1c
+<6>[23983.396969] task:vq1             state:D stack:0     pid:150   ppid:2      flags:0x00000000
+<6>[23983.396980] Call Trace:
+<6>[23983.396983] [<ffffffff80ffd2ec>] __schedule+0x308/0xa16
+<6>[23983.396993] [<ffffffff80ffda46>] schedule+0x4c/0xd6
+<6>[23983.397000] [<ffffffff81002c7a>] schedule_timeout+0x6c/0x156
+<6>[23983.397009] [<ffffffff80ffe336>] wait_for_completion_timeout+0x56/0x100
+<6>[23983.397018] [<ffffffff80c2443e>] __process_theread+0x64/0xbe
+<6>[23983.397024] [<ffffffff8003e8ba>] kthread+0xca/0xe6
+<6>[23983.397031] [<ffffffff81004132>] ret_from_fork+0xe/0x1c
+<6>[23983.508218] binder: 5196:5124 cannot find target node
+<6>[23983.508260] binder: 5124:5196 transaction async to 0:0 failed 2197466/29189/-22, size 112-0 line 3100
+<6>[23984.397824] sysrq: Show backtrace of all active CPUs
+<6>[23984.402921] sysrq: CPU2:
+<6>[23984.402932] Call Trace:
+<6>[23984.402941] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23984.402966] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23984.402981] [<ffffffff8075044a>] sysrq_handle_showallcpus+0xb6/0xb8
+<6>[23984.402997] [<ffffffff807507be>] __handle_sysrq+0xee/0x19c
+<6>[23984.403005] [<ffffffff80750e44>] write_sysrq_trigger+0x58/0x80
+<6>[23984.403015] [<ffffffff802a33c2>] proc_reg_write+0x40/0x8e
+<6>[23984.403027] [<ffffffff802263a4>] vfs_write+0xa8/0x342
+<6>[23984.403038] [<ffffffff8022677a>] ksys_write+0x54/0xcc
+<6>[23984.403046] [<ffffffff80226806>] __riscv_sys_write+0x14/0x1c
+<6>[23984.403054] [<ffffffff80ffaba8>] do_trap_ecall_u+0xba/0x12e
+<6>[23984.403065] [<ffffffff8100401e>] ret_from_exception+0x0/0x6e
+<6>[23984.403128] sysrq: CPU0: backtrace skipped as idling
+<6>[23984.403130] sysrq: CPU3:
+<6>[23984.403138] sysrq: CPU4: backtrace skipped as idling
+<6>[23984.403141] sysrq: CPU7: backtrace skipped as idling
+<6>[23984.403143] Call Trace:
+<6>[23984.403151] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23984.403166] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23984.403174] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23984.403184] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23984.403196] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23984.403205] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23984.403216] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23984.403229] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23984.403239] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23984.403249] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23984.403258] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23984.403267] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23984.403279] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23984.403288] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40
+<6>[23984.403298] sysrq: CPU1:
+<6>[23984.403306] Call Trace:
+<6>[23984.403311] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23984.403324] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23984.403336] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23984.403349] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23984.403358] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23984.403367] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23984.403377] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23984.403388] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23984.403396] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23984.403405] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23984.403413] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23984.403420] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23984.403430] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23984.403440] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40
+<6>[23984.403450] sysrq: CPU5:
+<6>[23984.403459] Call Trace:
+<6>[23984.403465] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23984.403480] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23984.403489] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23984.403501] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23984.403512] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23984.403521] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23984.403531] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23984.403545] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23984.403554] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23984.403565] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23984.403573] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23984.403582] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23984.403593] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23984.403604] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40
+<6>[23984.403615] sysrq: CPU6:
+<6>[23984.403622] Call Trace:
+<6>[23984.403627] [<ffffffff800066f8>] dump_backtrace+0x1c/0x24
+<6>[23984.403641] [<ffffffff80fde33a>] show_stack+0x2c/0x38
+<6>[23984.403651] [<ffffffff80750212>] showacpu+0x52/0x84
+<6>[23984.403663] [<ffffffff800b9530>] __flush_smp_call_function_queue+0xe6/0x4c8
+<6>[23984.403673] [<ffffffff800b9920>] generic_smp_call_function_single_interrupt+0xe/0x16
+<6>[23984.403682] [<ffffffff800099d6>] handle_IPI+0x40/0x92
+<6>[23984.403692] [<ffffffff8007fa22>] handle_percpu_devid_irq+0x86/0x1c8
+<6>[23984.403704] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23984.403713] [<ffffffff80085fe4>] ipi_mux_process+0xd8/0xdc
+<6>[23984.403722] [<ffffffff8000bf7c>] sbi_ipi_handle+0x22/0x84
+<6>[23984.403730] [<ffffffff8007a518>] generic_handle_domain_irq+0x1c/0x2a
+<6>[23984.403738] [<ffffffff806ba9be>] riscv_intc_irq+0x26/0x60
+<6>[23984.403748] [<ffffffff80ffa17c>] handle_riscv_irq+0x4a/0x74
+<6>[23984.403758] [<ffffffff81004172>] call_on_irq_stack+0x32/0x40

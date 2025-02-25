@@ -1,0 +1,187 @@
+02-25 16:31:47.713   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: down: 924
+02-25 16:31:47.713   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [P:D:924][OnPointerEvent:490] id:924 recv
+02-25 16:31:47.713   16407-16431  C04213/InputKeyFlow            com.example.testnapi  I     [input_transfer_station.cpp] OnInputEvent<82>: eid:0,InputId:924,wid:24,action:2
+02-25 16:31:47.713   16407-16431  C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 295305968
+02-25 16:31:47.715   16407-16431  C03900/Ace                     com.example.testnapi  I     [mmi_event_convertor.cpp(553)-(-1:100000:singleton)] pointdown windowId: 24
+02-25 16:31:47.716   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [pipeline_context.cpp(2097)-(100000:100000:scope)] InputTracking id:924, fingerId:0, x=419.000, y=108.000 type=0, inject=0
+02-25 16:31:47.722   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: move: 925
+02-25 16:31:47.728   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [event_manager.cpp(221)-(100000:100000:scope)] InputTracking id:924, touch test hitted node info: fingerId: 0{ tag: TextArea, frameRect: RectT (87.00, 45.00) - [1026.00 x 150.00], depth: 6 };
+02-25 16:31:47.728   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [event_manager.cpp(308)-(100000:100000:scope)] InputTracking id:924, touch test hitted recognizer type info: recognizer type ClickRecognizer node info: { tag: TextArea };recognizer type LongPressRecognizer node info: { tag: TextArea }; { tag: TextArea }; { tag: TextArea };recognizer type PanRecognizer node info: { tag: TextArea }; { tag: TextArea };
+02-25 16:31:47.729   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [exclusive_recognizer.cpp(110)-(100000:100000:scope)] Id:924, exclusive 0 type: 0
+02-25 16:31:47.729   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(210)-(100000:100000:scope)] Id:924, click 0 down, ETF: 0, CTP: 0, state: 0
+02-25 16:31:47.729   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [pan_recognizer.cpp(209)-(100000:100000:scope)] Id:924, pan 0 down, state: 0
+02-25 16:31:47.730   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [parallel_recognizer.cpp(93)-(100000:100000:scope)] Id:924, parallel 0 type: 0
+02-25 16:31:47.730   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(127)-(100000:100000:scope)] Id:924, LongPress 0 down, state: 0
+02-25 16:31:47.730   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [sequenced_recognizer.cpp(126)-(100000:100000:scope)] Id:924, sequenced 0 type: 0
+02-25 16:31:47.730   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(127)-(100000:100000:scope)] Id:924, LongPress 0 down, state: 0
+02-25 16:31:47.731   16407-16407  C0391e/AceGesture              com.example.testnapi  I     [gesture_recognizer.cpp(526)-(100000:100000:scope)] Recognizer has already receive touchId: 0 event, node tag = TextArea, id = 6
+02-25 16:31:47.731   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(127)-(100000:100000:scope)] Id:924, LongPress 0 down, state: 0
+02-25 16:31:47.732   16407-16407  C03919/AceInputTracking        com.example.testnapi  I     [event_manager.cpp(2042)-(100000:100000:scope)] Consumed new event id=924 in ace_container, lastEventInfo: id:925
+02-25 16:31:47.732   16407-18750  C01719/ffrt                    com.example.testnapi  W     349:TrivalOpenQosCtrlNode:64 pid 16407 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 16:31:47.734   16407-18751  C01719/ffrt                    com.example.testnapi  W     355:TrivalOpenQosCtrlNode:64 pid 16407 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 16:31:47.734   16407-18752  C01719/ffrt                    com.example.testnapi  W     357:TrivalOpenQosCtrlNode:64 pid 16407 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 16:31:47.735   16407-18750  C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 295307488
+02-25 16:31:47.735   16407-18751  C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 295308000
+02-25 16:31:47.839   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: up: 926
+02-25 16:31:47.840   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [P:U:926][OnPointerEvent:490] id:926 recv
+02-25 16:31:47.840   16407-16431  C04213/InputKeyFlow            com.example.testnapi  I     [input_transfer_station.cpp] OnInputEvent<82>: eid:1,InputId:926,wid:24,action:4
+02-25 16:31:47.840   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [pipeline_context.cpp(2097)-(100000:100000:scope)] InputTracking id:926, fingerId:0, x=419.000, y=108.000 type=1, inject=0
+02-25 16:31:47.843   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [exclusive_recognizer.cpp(110)-(100000:100000:scope)] Id:926, exclusive 0 type: 1
+02-25 16:31:47.843   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(271)-(100000:100000:scope)] Id:926, click 0 up, state: 0
+02-25 16:31:47.843   16407-16407  C0391e/AceGesture              com.example.testnapi  I     [click_recognizer.cpp(306)-(100000:100000:scope)] Click try accept
+02-25 16:31:47.844   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(163)-(100000:100000:scope)] Click accepted, tag: TextArea
+02-25 16:31:47.845   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(2196)-(100000:100000:scope)] textfield 6 request focus currently
+02-25 16:31:47.845   16407-16407  C0391c/AceFocus                com.example.testnapi  I     [focus_hub.cpp(1127)-(100000:100000:scope)] Node(TextArea/6) on focus
+02-25 16:31:47.846   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(924)-(100000:100000:scope)] TextField 6 on focus
+02-25 16:31:47.846   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(4749)-(100000:100000:scope)] 6 RequestKeyboardByFocusSwitch: onFocus_: 0 Inner: 1 modalCovered: 0
+02-25 16:31:47.846   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(4758)-(100000:100000:scope)] 6 add requestkeyboard task
+02-25 16:31:47.846   16407-16407  C0391c/AceFocus                com.example.testnapi  I     [focus_manager.cpp(338)-(100000:100000:scope)] FocusSwitching end, startReason: 2, endReason: 4, updateReason: 2
+02-25 16:31:47.846   16407-16407  C03933/AceKeyboard             com.example.testnapi  I     [input_method_manager_ohos.cpp(52)-(100000:100000:scope)] current focus node info : (TextArea/6).
+02-25 16:31:47.847   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_input_ai_checker.cpp(25)-(100000:100000:scope)] NeedAIAnalysis type is 0,return!
+02-25 16:31:47.847   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_select_controller.cpp(166)-(100000:100000:scope)] now caret index = [0]
+02-25 16:31:47.847   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(2274)-(100000:100000:scope)] DoProcessAutoFill
+02-25 16:31:47.848   16407-16407  C03f00/MUSL-LDSO               com.example.testnapi  E     Open absolute_path library: check ns accessible failed, pathname /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so namespace ndk.
+02-25 16:31:47.848   16407-16407  C03f00/MUSL-LDSO               com.example.testnapi  E     Error loading header /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so, namespace ndk has no inherits, errno=2
+02-25 16:31:47.848   16407-16407  C03f00/MUSL-LDSO               com.example.testnapi  E     Error loading header: can't find library /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so in namespace: default
+02-25 16:31:47.848   16407-16407  C03f00/MUSL-LDSO               com.example.testnapi  E     dlopen_impl load library header failed for /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so
+02-25 16:31:47.848   16407-16407  C03900/Ace                     com.example.testnapi  E     [view_data_wrap_ohos.cpp(74)-(100000:100000:scope)] Failed to open libhint2type library /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so, reason: Error loading shared library /system/lib64/module/hms/core/atomicservicecomponent/libhint2type.z.so: No such file or directoryn
+02-25 16:31:47.849   16407-16407  C03932/AceAutoFill             com.example.testnapi  E     [ace_container.cpp(1375)-(100000:100000:scope)] Load Hint2Type Failed !
+02-25 16:31:47.849   16407-16407  C03932/AceAutoFill             com.example.testnapi  E     [text_field_pattern.cpp(2318)-(100000:100000:scope)] CheckAutoFillType :autoFillType is ACE_UNSPECIFIED.
+02-25 16:31:47.849   16407-16407  C03932/AceAutoFill             com.example.testnapi  I     [text_field_pattern.cpp(2421)-(100000:100000:scope)] No need to auto fill.
+02-25 16:31:47.849   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(4786)-(100000:100000:scope)] 6 requestKeyboard With Reason 2
+02-25 16:31:47.849   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3578)-(100000:100000:scope)] textfield to request keyboardshowsoftkeyboard: 1
+02-25 16:31:47.849   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 16:31:47.849   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3605)-(100000:100000:scope)] node 6 RequestKeyboard set calling window id:24 inputType: -1 enterKeyType: 8
+02-25 16:31:47.850   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 231, function: Attach,isShowKeyboard 1
+02-25 16:31:47.867   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 941, function: OnInputReady,IMC
+02-25 16:31:47.868   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 255, function: Attach,bind imf successfully
+02-25 16:31:47.868   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 16:31:47.868   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 626, function: OnCursorUpdate,left: 111, top: 177, height: 28
+02-25 16:31:47.868   16407-16436  C03914/AceTextField            com.example.testnapi  I     [on_text_changed_listener_impl.cpp(142)-(-1:100000:singleton)] SendKeyboardStatus status: 2
+02-25 16:31:47.868   16407-16436  C03914/AceTextField            com.example.testnapi  I     [on_text_changed_listener_impl.cpp(86)-(-1:100000:singleton)] SetKeyboardStatus status: 1
+02-25 16:31:47.868   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 660, function: OnSelectionChange,IMC size: 0, range: 0/0/0/0
+02-25 16:31:47.869   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(697)-(100000:100000:scope)] UpdateCaretInfoToController, left 111.000000, top 177.000000, width 3.000000, height 28.000000, selectController_ Start 0, end 0
+02-25 16:31:47.870   16407-16407  C03905/AceDrag                 com.example.testnapi  I     [drag_event.cpp(469)-(100000:100000:scope)] Tragger pan onReject
+02-25 16:31:47.870   16407-16407  C03905/AceDrag                 com.example.testnapi  I     [drag_event.cpp(469)-(100000:100000:scope)] Tragger pan onReject
+02-25 16:31:47.871   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [pan_recognizer.cpp(296)-(100000:100000:scope)] Id:926, pan 0 up, state: 6
+02-25 16:31:47.871   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [parallel_recognizer.cpp(93)-(100000:100000:scope)] Id:926, parallel 0 type: 1
+02-25 16:31:47.871   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(184)-(100000:100000:scope)] Id:926, LongPress 0 up, state: 6
+02-25 16:31:47.871   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [sequenced_recognizer.cpp(126)-(100000:100000:scope)] Id:926, sequenced 0 type: 1
+02-25 16:31:47.871   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(184)-(100000:100000:scope)] Id:926, LongPress 0 up, state: 6
+02-25 16:31:47.872   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [long_press_recognizer.cpp(184)-(100000:100000:scope)] Id:926, LongPress 0 up, state: 6
+02-25 16:31:47.872   16407-16407  C03919/AceInputTracking        com.example.testnapi  I     [event_manager.cpp(2042)-(100000:100000:scope)] Consumed new event id=926 in ace_container, lastEventInfo: id:925
+02-25 16:31:47.872   16407-18752  C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 295311472
+02-25 16:31:47.875   16407-18761  C01719/ffrt                    com.example.testnapi  W     376:TrivalOpenQosCtrlNode:64 pid 16407 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 16:31:47.877   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 16:31:47.877   16407-16436  C03900/Ace                     com.example.testnapi  I     [ui_content_impl.cpp(393)-(-1:100000:singleton)] OccupiedAreaChange rect:Rect (0.00, 855.00) - [1200.00 x 825.00] type: 0, positionY:0.000000, height:0.000000, instanceId_ 100000
+02-25 16:31:47.877   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(683)-(100000:100000:scope)] UpdateCaretInfoToController, same to update caretInfo
+02-25 16:31:47.879   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(4765)-(100000:100000:scope)] Already call close/attach before attach, no need attach this time
+02-25 16:31:47.883   16407-16407  C03933/AceKeyboard             com.example.testnapi  I     [pipeline_context.cpp(1804)-(100000:100000:scope)] origin positionY: -120.000000, height 0.000000
+02-25 16:31:47.883   16407-16407  C03933/AceKeyboard             com.example.testnapi  I     [pipeline_context.cpp(1853)-(100000:100000:scope)] keyboardHeight: 825.000000, positionY: 57.000000, textHeight: 64.000000, rootSize.Height() 1680.000000 final calculate keyboard offset is 0.000000
+02-25 16:31:47.889   16407-18764  C01719/ffrt                    com.example.testnapi  W     398:TrivalOpenQosCtrlNode:64 pid 16407 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 16:31:48.884   16407-16413  C03914/AceTextField            com.example.testnapi  I     [on_text_changed_listener_impl.cpp(39)-(-1:100000:singleton)] InsertText length:1
+02-25 16:31:48.902   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3879)-(100000:100000:scope)] BeforeIMEInsertValue len:<private>,offset:<private>
+02-25 16:31:48.903   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3894)-(100000:100000:scope)] AfterIMEInsertValue len:<private>,offset:<private>
+02-25 16:31:48.910   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(414)-(100000:100000:scope)] before move, handleRect.GetX():37.919952,handleRect.GetY():12.000000
+02-25 16:31:48.910   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(450)-(100000:100000:scope)] after move, handleRect.GetX():36.419952,handleRect.GetY():12.000000
+02-25 16:31:48.911   16407-16407  C03926/AceTheme                com.example.testnapi  W     [theme_style.h(125)-(100000:100000:scope)] style text_overlay_pattern not contains bg_color_disabled_alpha!
+02-25 16:31:48.911   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 16:31:48.911   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 626, function: OnCursorUpdate,left: 123, top: 177, height: 28
+02-25 16:31:48.912   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 660, function: OnSelectionChange,IMC size: 1, range: 0/0/1/1
+02-25 16:31:48.912   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(697)-(100000:100000:scope)] UpdateCaretInfoToController, left 123.419952, top 177.000000, width 3.000000, height 28.000000, selectController_ Start 1, end 1
+02-25 16:31:48.913   16407-18761  C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 295306496
+02-25 16:31:48.918   16407-16407  C01719/ffrt                    com.example.testnapi  W     427:ffrt_skip:539 skip task [48] faild, because the task is doing now or has finished.
+02-25 16:31:48.919   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(165)-(100000:100000:scope)] On change <private>
+02-25 16:31:48.919   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(166)-(100000:100000:scope)] On change previewText <private>
+02-25 16:31:48.919   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(167)-(100000:100000:scope)] On change previewText index <private>
+02-25 16:31:48.928   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_model_ng.cpp(93)-(100000:100000:scope)] text field create node, id = 6
+02-25 16:31:48.929   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(2608)-(100000:100000:scope)] textfield 6 Keyboard action is 8
+02-25 16:31:48.936   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(414)-(100000:100000:scope)] before move, handleRect.GetX():37.919952,handleRect.GetY():12.000000
+02-25 16:31:48.936   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(450)-(100000:100000:scope)] after move, handleRect.GetX():36.419952,handleRect.GetY():12.000000
+02-25 16:31:48.936   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 16:31:48.936   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(683)-(100000:100000:scope)] UpdateCaretInfoToController, same to update caretInfo
+02-25 16:31:49.115   16407-16413  C03914/AceTextField            com.example.testnapi  I     [on_text_changed_listener_impl.cpp(39)-(-1:100000:singleton)] InsertText length:1
+02-25 16:31:49.133   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3879)-(100000:100000:scope)] BeforeIMEInsertValue len:<private>,offset:<private>
+02-25 16:31:49.134   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3894)-(100000:100000:scope)] AfterIMEInsertValue len:<private>,offset:<private>
+02-25 16:31:49.137   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(414)-(100000:100000:scope)] before move, handleRect.GetX():43.703934,handleRect.GetY():12.000000
+02-25 16:31:49.137   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(450)-(100000:100000:scope)] after move, handleRect.GetX():42.203934,handleRect.GetY():12.000000
+02-25 16:31:49.139   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 16:31:49.139   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 626, function: OnCursorUpdate,left: 129, top: 177, height: 28
+02-25 16:31:49.140   16407-16407  C01c10/ImsaKit                 com.example.testnapi  I     line: 660, function: OnSelectionChange,IMC size: 2, range: 1/1/2/2
+02-25 16:31:49.141   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(697)-(100000:100000:scope)] UpdateCaretInfoToController, left 129.203934, top 177.000000, width 3.000000, height 28.000000, selectController_ Start 2, end 2
+02-25 16:31:49.141   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(165)-(100000:100000:scope)] On change <private>
+02-25 16:31:49.141   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(166)-(100000:100000:scope)] On change previewText <private>
+02-25 16:31:49.141   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_event_hub.h(167)-(100000:100000:scope)] On change previewText index <private>
+02-25 16:31:49.151   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_model_ng.cpp(93)-(100000:100000:scope)] text field create node, id = 6
+02-25 16:31:49.152   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(2608)-(100000:100000:scope)] textfield 6 Keyboard action is 8
+02-25 16:31:49.156   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(414)-(100000:100000:scope)] before move, handleRect.GetX():43.703934,handleRect.GetY():12.000000
+02-25 16:31:49.156   16407-16407  C03912/AceTextInput            com.example.testnapi  I     [text_select_controller.cpp(450)-(100000:100000:scope)] after move, handleRect.GetX():42.203934,handleRect.GetY():12.000000
+02-25 16:31:49.157   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(3696)-(100000:100000:scope)] textfield 6 MiscTextConfig positionY: 165.000000, height: 76.000000
+02-25 16:31:49.157   16407-16407  C03914/AceTextField            com.example.testnapi  I     [text_field_pattern.cpp(683)-(100000:100000:scope)] UpdateCaretInfoToController, same to update caretInfo
+02-25 16:31:49.859   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: down: 933
+02-25 16:31:49.859   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [P:D:933][OnPointerEvent:490] id:933 recv
+02-25 16:31:49.859   16407-16431  C04213/InputKeyFlow            com.example.testnapi  I     [input_transfer_station.cpp] OnInputEvent<82>: eid:2,InputId:933,wid:24,action:2
+02-25 16:31:49.861   16407-16431  C03900/Ace                     com.example.testnapi  I     [mmi_event_convertor.cpp(553)-(-1:100000:singleton)] pointdown windowId: 24
+02-25 16:31:49.862   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [pipeline_context.cpp(2097)-(100000:100000:scope)] InputTracking id:933, fingerId:0, x=715.000, y=264.000 type=0, inject=0
+02-25 16:31:49.863   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: move: 934
+02-25 16:31:49.863   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [event_manager.cpp(221)-(100000:100000:scope)] InputTracking id:933, touch test hitted node info: fingerId: 0{ tag: Button, frameRect: RectT (87.00, 225.00) - [1026.00 x 60.00], depth: 6 };
+02-25 16:31:49.863   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [event_manager.cpp(308)-(100000:100000:scope)] InputTracking id:933, touch test hitted recognizer type info: recognizer type ClickRecognizer node info: { tag: Button };
+02-25 16:31:49.864   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(210)-(100000:100000:scope)] Id:933, click 0 down, ETF: 0, CTP: 0, state: 0
+02-25 16:31:49.865   16407-16407  C03919/AceInputTracking        com.example.testnapi  I     [event_manager.cpp(2042)-(100000:100000:scope)] Consumed new event id=933 in ace_container, lastEventInfo: id:934
+02-25 16:31:49.946   16407-16445  C01406/OHOS::RS                com.example.testnapi  I     RSUIDirector::ProcessMessages messageId:1, cmdCount:1, instanceId:100000
+02-25 16:31:49.947   16407-16407  C01406/OHOS::RS                com.example.testnapi  I     RSUIDirector::PostTask messageId:1, cmdCount:1, instanceId:100000
+02-25 16:31:49.981   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [][OnPointerEvent:188] ac: up: 935
+02-25 16:31:49.982   16407-16431  C02805/InputKeyFlow            com.example.testnapi  I     [P:U:935][OnPointerEvent:490] id:935 recv
+02-25 16:31:49.982   16407-16431  C04213/InputKeyFlow            com.example.testnapi  I     [input_transfer_station.cpp] OnInputEvent<82>: eid:3,InputId:935,wid:24,action:4
+02-25 16:31:49.983   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [pipeline_context.cpp(2097)-(100000:100000:scope)] InputTracking id:935, fingerId:0, x=715.000, y=264.000 type=1, inject=0
+02-25 16:31:49.985   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(271)-(100000:100000:scope)] Id:935, click 0 up, state: 0
+02-25 16:31:49.986   16407-16407  C0391e/AceGesture              com.example.testnapi  I     [click_recognizer.cpp(306)-(100000:100000:scope)] Click try accept
+02-25 16:31:49.986   16407-16407  C03951/InputKeyFlow            com.example.testnapi  I     [click_recognizer.cpp(163)-(100000:100000:scope)] Click accepted, tag: Button
+02-25 16:31:49.990   16407-16407  A03d00/JSAPP                   com.example.testnapi  I     Generating response for input: hi
+02-25 16:31:49.990   16407-16407  C01650/ChatGPT                 com.example.testnapi  I     ChatGPT instance created
+02-25 16:31:49.992   16407-16407  C01650/ChatGPT                 com.example.testnapi  I     Making request to Ollama API
+02-25 16:31:52.736   16407-18751  C01719/ffrt                    com.example.testnapi  W     497:~WorkerThread:65 WorkerThread enter destruction
+02-25 16:31:52.737   16407-18751  C057c6/BinderInvoker           com.example.testnapi  I     ~BinderInvoker 97: destroyed invoker 295308000
+02-25 16:31:54.154   16407-18761  C01719/ffrt                    com.example.testnapi  W     501:~WorkerThread:65 WorkerThread enter destruction
+02-25 16:31:54.154   16407-18761  C057c6/BinderInvoker           com.example.testnapi  I     ~BinderInvoker 97: destroyed invoker 295306496
+02-25 16:31:54.164   16407-18764  C01719/ffrt                    com.example.testnapi  W     505:~WorkerThread:65 WorkerThread enter destruction
+02-25 16:31:54.506   16407-19013  C01719/ffrt                    com.example.testnapi  W     512:TrivalOpenQosCtrlNode:64 pid 16407 belong to user 20010049 open qos node warn, fd:-1, eno:2, No such file or directory
+02-25 16:31:54.507   16407-19013  C01201/EventHandler            com.example.testnapi  I     EventHandler start dumper!
+02-25 16:31:54.509   16407-19013  C01310/AppDfr                  com.example.testnapi  I     [appfreeze_inner.cpp:229]Start NotifyAppFault:THREAD_BLOCK_3S, pid:16407, bundleName:com.example.testnapi.
+02-25 16:31:54.509   16407-19013  C057c6/BinderInvoker           com.example.testnapi  I     BinderInvoker 92: created invoker 295247040
+02-25 16:31:54.513   16407-16410  C03f00/MUSL-SIGCHAIN           com.example.testnapi  E     signal_chain_handler call 2 rd sigchain action for signal: 35 sca_sigaction=3f9a0c670c noreturn=0 FREEZE_signo_35 thread_list_lock_status:0tl_lock_count=0 tl_lock_waiters=0tl_lock_tid_fail=-1 tl_lock_count_tid=199
+02-25 16:31:54.513   16407-16410  C02d11/DfxSignalHandler        com.example.testnapi  I     DFX_SigchainHandler :: sig(35), pid(16407), tid(16410).
+02-25 16:31:54.514   16407-16410  C02d11/DfxSignalHandler        com.example.testnapi  I     DFX_SigchainHandler :: sig(35), pid(16407), processName(com.example.testnapi), threadName(OS_IPC_0_16410).
+02-25 16:31:54.600   16407-16411  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26768059132846
+02-25 16:31:54.600   16407-16410  C02d11/DfxSignalHandler        com.example.testnapi  I     start wait processdump read registers
+02-25 16:31:54.644   16407-16410  C02d11/DfxSignalHandler        com.example.testnapi  I     processdump have get all registers .
+02-25 16:31:54.698   16407-16411  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26768156931221
+02-25 16:31:54.698   16407-16436  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26768157288887
+02-25 16:31:54.698   16407-16413  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26768157081429
+02-25 16:31:54.728   16407-16410  C02d11/DfxSignalHandler        com.example.testnapi  I     process dump end
+02-25 16:31:54.728   16407-16410  C02d11/DfxSignalHandler        com.example.testnapi  I     Finish handle signal(35) in 16407:16410
+02-25 16:31:54.728   16407-16410  C03f00/MUSL-SIGCHAIN           com.example.testnapi  E     signal_chain_handler call 2 rd sigchain action for signal: 35 directly return
+02-25 16:31:54.729   16407-16410  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26768187701096
+02-25 16:31:54.867   16407-18752  C01719/ffrt                    com.example.testnapi  W     521:~WorkerThread:65 WorkerThread enter destruction
+02-25 16:31:54.868   16407-18752  C057c6/BinderInvoker           com.example.testnapi  I     ~BinderInvoker 97: destroyed invoker 295311472
+02-25 16:31:54.868   16407-18750  C01719/ffrt                    com.example.testnapi  W     523:~WorkerThread:65 WorkerThread enter destruction
+02-25 16:31:54.868   16407-18750  C057c6/BinderInvoker           com.example.testnapi  I     ~BinderInvoker 97: destroyed invoker 295307488
+02-25 16:31:55.255   16407-16411  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26768714284638
+02-25 16:31:57.506   16407-19013  C01201/EventHandler            com.example.testnapi  I     EventHandler start dumper!
+02-25 16:31:57.509   16407-19013  C057c2/IPCObjectProxy          com.example.testnapi  I     SendRequest 137: handle:10 desc:*.AbilityManager refcnt:3 404300432
+02-25 16:31:57.524   16407-19013  C01310/AppDfr                  com.example.testnapi  I     [appfreeze_inner.cpp:134]hisysevent write result=0, send event [FRAMEWORK,PROCESS_KILL], pid=16407, processName=com.example.testnapi, msg=Kill Reason:THREAD_BLOCK_6S
+02-25 16:31:57.524   16407-19013  C01310/AppDfr                  com.example.testnapi  I     [appfreeze_inner.cpp:229]Start NotifyAppFault:THREAD_BLOCK_6S, pid:16407, bundleName:com.example.testnapi.
+02-25 16:31:57.525   16407-19013  C01356/Recovery                com.example.testnapi  E     [app_recovery.cpp:171]is not enabled
+02-25 16:31:57.526   16407-19013  C01356/Recovery                com.example.testnapi  E     [app_recovery.cpp:229]not enabled
+02-25 16:31:57.532   16407-16411  C03f00/MUSL-SIGCHAIN           com.example.testnapi  E     signal_chain_handler call 2 rd sigchain action for signal: 35 sca_sigaction=3f9a0c670c noreturn=0 FREEZE_signo_35 thread_list_lock_status:0tl_lock_count=0 tl_lock_waiters=0tl_lock_tid_fail=-1 tl_lock_count_tid=199
+02-25 16:31:57.532   16407-16411  C02d11/DfxSignalHandler        com.example.testnapi  I     DFX_SigchainHandler :: sig(35), pid(16407), tid(16411).
+02-25 16:31:57.532   16407-16411  C02d11/DfxSignalHandler        com.example.testnapi  I     DFX_SigchainHandler :: sig(35), pid(16407), processName(com.example.testnapi), threadName(OS_IPC_1_16411).
+02-25 16:31:57.616   16407-16411  C02d11/DfxSignalHandler        com.example.testnapi  I     start wait processdump read registers
+02-25 16:31:57.645   16407-16411  C02d11/DfxSignalHandler        com.example.testnapi  I     processdump have get all registers .
+02-25 16:31:57.697   16407-16410  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26771156037889
+02-25 16:31:57.697   16407-16413  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26771156038931
+02-25 16:31:57.697   16407-16436  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26771156532681
+02-25 16:31:57.728   16407-16411  C02d11/DfxSignalHandler        com.example.testnapi  I     process dump end
+02-25 16:31:57.728   16407-16411  C02d11/DfxSignalHandler        com.example.testnapi  I     Finish handle signal(35) in 16407:16411
+02-25 16:31:57.728   16407-16411  C03f00/MUSL-SIGCHAIN           com.example.testnapi  E     signal_chain_handler call 2 rd sigchain action for signal: 35 directly return
+02-25 16:31:57.728   16407-16411  C057c7/BinderConnector         com.example.testnapi  W     WriteBinder 209: ioctl_binder returned EINTR time:26771187253222

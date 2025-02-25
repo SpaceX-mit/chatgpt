@@ -1,0 +1,11 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "entry description",
+  "main": "",
+  "napi": {
+    "name": "chatgpt",
+    "libPath": "/system/lib64",
+    "systemLibrary": true        // 标记为系统库
+  }
+}
