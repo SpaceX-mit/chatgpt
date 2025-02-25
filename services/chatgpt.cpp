@@ -107,6 +107,7 @@ void ChatGPT::GenerateResponseStream(
 
         // Configure CURL options
         curl_easy_setopt(curl, CURLOPT_URL, "http://10.0.90.97:11434/api/generate");
+        curl_easy_setopt(curl, CURLOPT_POST, 1L);
         curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, jsonString.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
@@ -114,12 +115,11 @@ void ChatGPT::GenerateResponseStream(
         curl_easy_setopt(curl, CURLOPT_TIMEOUT, 30L);
         curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
 
-        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 30L);
-        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
+        HiviewDFX::HiLog::Info(LABEL, "Making request to Ollama API");
         // Perform request
         CURLcode res = curl_easy_perform(curl);
         
-        HiviewDFX::HiLog::Info(LABEL, "Making request to Ollama API");
+        HiviewDFX::HiLog::Info(LABEL, "Making request to Ollama API end");
         // Cleanup CURL resources
         curl_slist_free_all(headers);
         curl_easy_cleanup(curl);
