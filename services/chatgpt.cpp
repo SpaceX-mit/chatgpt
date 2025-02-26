@@ -64,12 +64,17 @@ namespace OHOS {
 namespace Communication {
 
 ChatGPT::ChatGPT() {
+    HiviewDFX::HiLog::Info(LABEL, "ChatGPT constructor called");
     std::call_once(initFlag, [this]() {
+        HiviewDFX::HiLog::Info(LABEL, "Initializing CURL (call_once)");
         if (InitializeCurl()) {
             isInitialized = true;
-            HiviewDFX::HiLog::Info(LABEL, "CURL globally initialized");
+            HiviewDFX::HiLog::Info(LABEL, "CURL globally initialized successfully");
+        } else {
+            HiviewDFX::HiLog::Error(LABEL, "CURL global initialization failed");
         }
     });
+    HiviewDFX::HiLog::Info(LABEL, "ChatGPT constructor finished, isInitialized: %{public}d", isInitialized);
 }
 
 ChatGPT::~ChatGPT() {
@@ -79,18 +84,22 @@ ChatGPT::~ChatGPT() {
 }
 
 bool ChatGPT::InitializeCurl() {
+    HiviewDFX::HiLog::Info(LABEL, "InitializeCurl called");
     CURLcode code = curl_global_init(CURL_GLOBAL_DEFAULT);
     if (code != CURLE_OK) {
-        HiviewDFX::HiLog::Error(LABEL, "Failed to initialize CURL: %{public}s", 
-            curl_easy_strerror(code));
+        HiviewDFX::HiLog::Error(LABEL, "curl_global_init failed with code: %{public}d, error: %{public}s", 
+            code, curl_easy_strerror(code));
         return false;
     }
+    HiviewDFX::HiLog::Info(LABEL, "curl_global_init succeeded");
     return true;
 }
 
 void ChatGPT::CleanupCurl() {
-    curl_global_cleanup();
+    HiviewDFX::HiLog::Info(LABEL, "Cleaning up CURL global state");
+    curl_global_cleanup(); 
     isInitialized = false;
+    HiviewDFX::HiLog::Info(LABEL, "CURL global state cleaned up successfully");
 }
 
 ChatGPT& ChatGPT::GetInstance() {
@@ -111,13 +120,13 @@ void ChatGPT::GenerateResponseStream(
         return;
     }
 
-    // Create context object on heap
+// Create context object on heap
     auto* context = new CallbackContext{
         .streamCallback = std::move(streamCallback),
         .completionCallback = std::move(completionCallback)
     };
     
-    // Use thread for async execution
+// Use thread for async execution   
     std::thread([this, input, context]() {
         CURL* curl = curl_easy_init();
         
@@ -128,9 +137,16 @@ void ChatGPT::GenerateResponseStream(
             return;
         }
 
-        // Set up CURL headers
+        // Set up CURL headers with error checking
         struct curl_slist* headers = nullptr;
         headers = curl_slist_append(headers, "Content-Type: application/json");
+        if (!headers) {
+            HiviewDFX::HiLog::Error(LABEL, "Failed to create headers");
+            curl_easy_cleanup(curl);
+            context->completionCallback("Error creating headers");
+            delete context;
+            return;
+        }
         
         // Prepare request payload
         json requestJson = {
@@ -139,30 +155,66 @@ void ChatGPT::GenerateResponseStream(
             {"stream", true}
         };
         std::string jsonString = requestJson.dump();
+        HiviewDFX::HiLog::Info(LABEL, "Request payload: %{public}s", jsonString.c_str());
 
-        // Configure CURL options
-        curl_easy_setopt(curl, CURLOPT_URL, "http://10.0.90.97:11434/api/generate");
+        // Configure CURL options with improved settings
+        const char* url = "http://10.0.91.97:11434/api/generate";
+        curl_easy_setopt(curl, CURLOPT_URL, url);
         curl_easy_setopt(curl, CURLOPT_POST, 1L);
         curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, jsonString.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, context);
-        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 30L);
-        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
-
-        HiviewDFX::HiLog::Info(LABEL, "Making request to Ollama API");
-        // Perform request
-        CURLcode res = curl_easy_perform(curl);
         
-        HiviewDFX::HiLog::Info(LABEL, "Making request to Ollama API end");
+        // 增加连接延迟容忍
+        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 5L);  // 连接超时改为5秒
+        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 60L);        // 总超时改为60秒
+        curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);   // 启用 TCP keepalive
+        curl_easy_setopt(curl, CURLOPT_TCP_KEEPIDLE, 120L);  // keepalive idle 时间
+        curl_easy_setopt(curl, CURLOPT_TCP_KEEPINTVL, 60L);  // keepalive 间隔
+        
+        // 调试选项
+        #ifdef DEBUG
+        curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
+        #endif
+
+        HiviewDFX::HiLog::Info(LABEL, "Making request to Ollama API at %{public}s", url);
+        
+        // 增加重试逻辑
+        int maxRetries = 3;
+        int retryCount = 0;
+        CURLcode res;
+        
+        do {
+            if (retryCount > 0) {
+                HiviewDFX::HiLog::Info(LABEL, "Retry attempt %{public}d after 2 second delay", retryCount);
+                std::this_thread::sleep_for(std::chrono::seconds(2));
+            }
+            
+            res = curl_easy_perform(curl);
+            
+            if (res == CURLE_OK) {
+                break;
+            }
+            
+            HiviewDFX::HiLog::Error(LABEL, "CURL attempt %{public}d failed: %{public}s", 
+                retryCount + 1, curl_easy_strerror(res));
+                
+            retryCount++;
+        } while (retryCount < maxRetries && 
+                (res == CURLE_COULDNT_CONNECT || res == CURLE_OPERATION_TIMEDOUT));
+        
+        HiviewDFX::HiLog::Info(LABEL, "CURL request completed after %{public}d attempts", retryCount + 1);
+        
         // Cleanup CURL resources
         curl_slist_free_all(headers);
         curl_easy_cleanup(curl);
-        curl_global_cleanup();
+//不要在这里调用 curl_global_cleanup();
 
         if (res != CURLE_OK) {
             std::string error = curl_easy_strerror(res);
-            HiviewDFX::HiLog::Error(LABEL, "CURL request failed: %{public}s", error.c_str());
+            HiviewDFX::HiLog::Error(LABEL, "CURL request failed after %{public}d attempts: %{public}s", 
+                retryCount + 1, error.c_str());
             context->completionCallback("CURL error: " + error);
         } else {
             HiviewDFX::HiLog::Info(LABEL, "Request completed successfully");

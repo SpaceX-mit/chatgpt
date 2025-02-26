@@ -1,10 +1,11 @@
+//import chatGpt from '@ohos.chatgpt'
+
 export class ChatGPTService {
   private static instance: ChatGPTService;
   private nativeChatGPT: any;
 
   private constructor() {
     try {
-      // 加载原生模块
       this.nativeChatGPT = globalThis.requireNapi('chatgpt_napi');
       console.info('ChatGPT native module loaded:', this.nativeChatGPT);
     } catch (error) {
@@ -35,6 +36,19 @@ export class ChatGPTService {
         reject(error);
       }
     });
+  }
+
+  public generateResponseStream(
+    input: string,
+    streamCallback: (chunk: string) => void,
+    completionCallback: (result: string) => void
+  ): void {
+    try {
+      this.nativeChatGPT.generateResponse(input, streamCallback, completionCallback)
+    } catch (error) {
+      console.error('ChatGPT service error:', error);
+      completionCallback(`Error: ${error.message}`);
+    }
   }
 
   private checkNativeModule() {
