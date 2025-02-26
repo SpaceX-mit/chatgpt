@@ -1,130 +1,165 @@
+import { ChatGPTService } from '../services/ChatGPTService'
+import prompt from '@system.prompt'
 
-import { ChatGPTService } from '../services/ChatGPTService';
-
-/*
 @Entry
 @Component
 struct Index {
-  @State message: string = 'Hello World'
+  @State userInput: string = ''
   @State response: string = ''
-
-  build() {
-    Row() {
-      Column() {
-        TextInput({ placeholder: '请输入问题' })
-          .onChange((value: string) => {
-            this.message = value
-          })
-          .width('80%')
-          .margin(10)
-
-        Button('发送')
-          .onClick(() => {
-            try {
-              // 调用NAPI接口
-              this.response = ChatGPTService.generateResponse(this.message)
-            } catch (error) {
-              console.error('Error generating response:', error)
-              this.response = 'Error: ' + error.message
-            }
-          })
-          .width('40%')
-          .margin(10)
-
-        Text(this.response)
-          .fontSize(16)
-          .width('80%')
-          .margin(10)
-      }
-      .width('100%')
-    }
-    .height('100%')
-  }
-}*/
-
-
-@Entry
-@Component
-struct Index {
-  @State message: string = 'Type your message...';
-  @State response: string = '';
-  @State isLoading: boolean = false;
-  private chatGPTService: ChatGPTService = ChatGPTService.getInstance();
-  @State userInput: string = '';
+  @State isLoading: boolean = false
+  @State statusMessage: string = ''
+  private chatGPTService: ChatGPTService = ChatGPTService.getInstance()
+  private controller: TextInputController = new TextInputController()
 
   aboutToAppear() {
     try {
-      console.info('Initializing ChatGPT service...');
-      this.chatGPTService = ChatGPTService.getInstance();
-      console.info('ChatGPT service initialized successfully');
+      console.info('Initializing ChatGPT service...')
+      this.chatGPTService = ChatGPTService.getInstance()
+      console.info('ChatGPT service initialized successfully')
     } catch (error) {
-      console.error('Failed to initialize ChatGPT service:', error);
-      this.message = 'Failed to initialize ChatGPT service';
+      console.error('Failed to initialize ChatGPT service:', error)
+      this.showError('Failed to initialize ChatGPT service')
     }
+  }
+
+  private showError(message: string) {
+    this.statusMessage = message
+    prompt.showToast({
+      message: message,
+      duration: 2000,
+      bottom: 50
+    })
   }
 
   build() {
     Column() {
-      TextArea({ placeholder: 'Enter your message here...', text: this.userInput })
-        .height(100)
-        .width('90%')
-        .margin(10)
-        .onChange((value: string) => {
-          this.userInput = value;
+      // Header
+      Text('ChatGPT Demo')
+        .fontSize(24)
+        .fontWeight(FontWeight.Bold)
+        .margin({ top: 20, bottom: 20 })
+
+      // Input Area
+      Column() {
+        TextArea({
+          placeholder: 'Enter your message here...',
+          text: this.userInput,
+          controller: this.controller
         })
-
-      Button('Send Message')
-        .width('90%')
-        .margin(10)
-        .enabled(!this.isLoading)
-        .onClick(async () => {
-          if (!this.userInput.trim()) {
-            return;
-          }
-
-          try {
-            this.isLoading = true;
-            this.message = 'Generating response...';
-
-            const response = await this.chatGPTService.generateResponse(this.userInput);
-            this.response = response;
-            this.message = 'Response received';
-          } catch (error) {
-            console.error('Error:', error);
-            this.message = `Error: ${error.message}`;
-          } finally {
-            this.isLoading = false;
-          }
-        })
-
-      if (this.isLoading) {
-        LoadingProgress()
-          .width(50)
-          .height(50)
-          .margin(10)
-      }
-
-      Text(this.message)
-        .fontSize(16)
-        .margin(10)
-        .fontColor(this.message.includes('Error') ? '#FF0000' : '#000000')
-
-      if (this.response) {
-        Text('Response:')
-          .fontSize(18)
-          .fontWeight(FontWeight.Bold)
-          .margin({ top: 20, bottom: 10 })
-
-        Text(this.response)
-          .fontSize(16)
-          .margin(10)
-          .padding(10)
+          .height(120)
+          .width('100%')
           .backgroundColor('#F5F5F5')
-          .width('90%')
+          .borderRadius(8)
+          .onChange((value: string) => {
+            this.userInput = value
+          })
+
+        Row() {
+          Button('Clear')
+            .width('30%')
+            .height(40)  // Fixed height for both buttons
+            .margin({ right: 10 })
+            .borderRadius(8)  // Same border radius as the TextArea
+            .backgroundColor('#999999')
+            .onClick(() => {
+              this.userInput = ''
+              this.controller.caretPosition(-1)
+            })
+
+          Button({
+            type: ButtonType.Normal,
+            stateEffect: true
+          }) {
+            Row() {
+              if (this.isLoading) {
+                LoadingProgress()
+                  .width(20)
+                  .height(20)
+                  .margin({ right: 10 })
+              }
+              Text(this.isLoading ? 'Generating...' : 'Send')
+            }
+          }
+          .width('65%')
+          .height(40)  // Same height as Clear button
+          .borderRadius(8)  // Same border radius
+          .enabled(!this.isLoading)
+          .onClick(() => {
+            if (!this.userInput.trim()) {
+              this.showError('Please enter your message')
+              return
+            }
+
+            this.isLoading = true
+            this.response = ''
+
+            try {
+              this.chatGPTService.generateResponseStream(
+                this.userInput,
+                // Stream callback
+                (chunk: string) => {
+                  if (chunk) {
+                    this.response += chunk
+                  }
+                },
+                // Completion callback
+                (result: string) => {
+                  this.isLoading = false
+                  if (result.startsWith('Error:')) {
+                    this.showError(result)
+                  } else {
+                    console.info('Generation completed:', result)
+                  }
+                }
+              )
+            } catch (error) {
+              this.isLoading = false
+              console.error('Error generating response:', error)
+              this.showError(`Error: ${error.message || 'Unknown error occurred'}`)
+            }
+          })
+        }
+        .width('100%')
+        .margin({ top: 10, bottom: 20 })
+        .justifyContent(FlexAlign.Center)  // Center the buttons horizontally
+      }
+      .width('90%')
+      .padding(10)
+
+      // Response Area
+      if (this.response || this.isLoading) {
+        Column() {
+          Text('Response:')
+            .fontSize(18)
+            .fontWeight(FontWeight.Bold)
+            .alignSelf(ItemAlign.Start)
+            .margin({ bottom: 10 })
+
+          Scroll() {
+            Text(this.response || 'Waiting for response...')
+              .fontSize(16)
+              .backgroundColor('#F5F5F5')
+              .padding(15)
+              .borderRadius(8)
+              .width('100%')
+              .margin({ bottom: 20 })
+          }
+          .width('100%')
+          .layoutWeight(1)  // Take remaining space
+          .scrollBar(BarState.Auto)
+          .edgeEffect(EdgeEffect.Spring)
+        }
+        .width('90%')
+        .layoutWeight(1)  // Take remaining space in parent Column
+        .animation({
+          duration: 300,
+          curve: Curve.EaseOut
+        })
       }
     }
     .width('100%')
     .height('100%')
-    .padding(20)
+    .backgroundColor('#FFFFFF')
+    .padding({ bottom: 20 })  // Add padding at bottom for better appearance
   }
 }
