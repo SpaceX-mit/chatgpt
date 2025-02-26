@@ -63,9 +63,6 @@ size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* userp) {
 namespace OHOS {
 namespace Communication {
 
-std::once_flag ChatGPT::initFlag;
-bool ChatGPT::isInitialized = false;
-
 ChatGPT::ChatGPT() {
     std::call_once(initFlag, [this]() {
         if (InitializeCurl()) {

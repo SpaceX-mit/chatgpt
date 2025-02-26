@@ -3,13 +3,13 @@
 
 #include <string>
 #include <functional>
+#include <mutex>
 
 namespace OHOS {
 namespace Communication {
 
 class ChatGPT {
 public:
-    // Define callback types as public members
     using StreamCallback = std::function<void(const std::string&)>;
     using CompletionCallback = std::function<void(const std::string&)>;
 
@@ -20,11 +20,19 @@ public:
         StreamCallback streamCallback,
         CompletionCallback completionCallback);
 
+    ~ChatGPT();
+
 private:
-    ChatGPT() = default;
-    ~ChatGPT() = default;
+    ChatGPT();
     ChatGPT(const ChatGPT&) = delete;
     ChatGPT& operator=(const ChatGPT&) = delete;
+    
+    bool InitializeCurl();
+    void CleanupCurl();
+
+    // Static member variables need to be declared in the class
+    inline static std::once_flag initFlag;
+    inline static bool isInitialized = false;
 };
 
 } // namespace Communication
