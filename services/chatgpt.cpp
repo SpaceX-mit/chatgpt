@@ -120,13 +120,11 @@ void ChatGPT::GenerateResponseStream(
         return;
     }
 
-// Create context object on heap
     auto* context = new CallbackContext{
         .streamCallback = std::move(streamCallback),
         .completionCallback = std::move(completionCallback)
     };
     
-// Use thread for async execution   
     std::thread([this, input, context]() {
         CURL* curl = curl_easy_init();
         
@@ -168,10 +166,15 @@ void ChatGPT::GenerateResponseStream(
         
         // 增加连接延迟容忍
         curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 5L);  // 连接超时改为5秒
-        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 60L);        // 总超时改为60秒
+        //curl_easy_setopt(curl, CURLOPT_TIMEOUT, 60L);        // 总超时改为60秒
         curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);   // 启用 TCP keepalive
         curl_easy_setopt(curl, CURLOPT_TCP_KEEPIDLE, 120L);  // keepalive idle 时间
         curl_easy_setopt(curl, CURLOPT_TCP_KEEPINTVL, 60L);  // keepalive 间隔
+        
+        // For streaming applications, consider using these settings:
+        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 0L);         // No timeout for transfer
+        curl_easy_setopt(curl, CURLOPT_LOW_SPEED_TIME, 30L); // Alternative: Timeout if speed is too low
+        curl_easy_setopt(curl, CURLOPT_LOW_SPEED_LIMIT, 1L); // for 30 seconds (1 byte/sec minimum)
         
         // 调试选项
         #ifdef DEBUG
@@ -209,7 +212,6 @@ void ChatGPT::GenerateResponseStream(
         // Cleanup CURL resources
         curl_slist_free_all(headers);
         curl_easy_cleanup(curl);
-//不要在这里调用 curl_global_cleanup();
 
         if (res != CURLE_OK) {
             std::string error = curl_easy_strerror(res);
